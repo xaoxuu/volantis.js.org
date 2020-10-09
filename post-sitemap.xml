@@ -216,7 +216,7 @@
     </url>
 
     <url>
-        <loc>https://volantis.js.org/test/images/</loc>
+        <loc>https://volantis.js.org/test/link-post-without-title/</loc>
         <lastmod>2020-08-21T02:39:20.201Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -224,7 +224,7 @@
     </url>
 
     <url>
-        <loc>https://volantis.js.org/test/link-post-without-title/</loc>
+        <loc>https://volantis.js.org/test/images/</loc>
         <lastmod>2020-08-21T02:39:20.201Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>

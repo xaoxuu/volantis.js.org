@@ -1269,6 +1269,22 @@ img.inline {
   color: var(--color-meta);
   font-size: 0.8125rem;
 }
+.md .link-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+@media screen and (max-width: 850px) {
+  .md .link-group {
+    grid-template-columns: 1fr;
+  }
+}
+.md .link-group .tag.link {
+  margin: 0;
+}
+.md .link-group .link-card {
+  width: 100%;
+}
 audio,
 video {
   border-radius: 4px;
