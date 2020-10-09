@@ -78,14 +78,14 @@
     </url>
     
     <url>
-        <loc>https://volantis.js.org/theme-settings/comments/</loc>
+        <loc>https://volantis.js.org/tag-plugins/video/</loc>
         <lastmod>2020-10-09T01:48:12.539Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://volantis.js.org/tag-plugins/video/</loc>
+        <loc>https://volantis.js.org/theme-settings/comments/</loc>
         <lastmod>2020-10-09T01:48:12.539Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -176,13 +176,6 @@
     </url>
     
     <url>
-        <loc>https://volantis.js.org/tag-plugins/gallery/</loc>
-        <lastmod>2020-10-09T01:48:12.534Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
         <loc>https://volantis.js.org/tag-plugins/ghcard/</loc>
         <lastmod>2020-10-09T01:48:12.534Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -191,6 +184,13 @@
     
     <url>
         <loc>https://volantis.js.org/tag-plugins/image/</loc>
+        <lastmod>2020-10-09T01:48:12.534Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://volantis.js.org/tag-plugins/gallery/</loc>
         <lastmod>2020-10-09T01:48:12.534Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
