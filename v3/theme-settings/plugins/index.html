@@ -1,0 +1,2288 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head hexo-theme="https://github.com/volantis-x/hexo-theme-volantis/tree/4.1.0">
+  <meta charset="utf-8">
+  <!-- SEO相关 -->
+  
+    <meta name="robots" content="noindex,nofollow">
+  
+  <!-- 渲染优化 -->
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <meta name="renderer" content="webkit">
+  <meta name="force-rendering" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- 页面元数据 -->
+  
+  <title>第三方插件 - Volantis</title>
+  
+
+  
+
+  <!-- feed -->
+  
+    <link rel="alternate" href="/atom.xml" title="Volantis" type="application/atom+xml">
+  
+
+  <!-- import meta -->
+  
+    
+      <meta name="msapplication-TileColor" content="#ffffff">
+    
+      <meta name="msapplication-config" content="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/browserconfig.xml">
+    
+      <meta name="theme-color" content="#ffffff">
+    
+  
+
+  <!-- link -->
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-fontawesome-pro@master/css/all.min.css">
+
+  
+  
+
+  
+
+  
+
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css">
+  
+
+  
+
+  <!-- import link -->
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/favicon-16x16.png">
+  <link rel="manifest" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/site.webmanifest">
+  <link rel="mask-icon" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/favicon.ico">
+  
+
+  
+  
+    
+<link rel="stylesheet" href="/css/style.css">
+
+  
+
+  <script id="loadcss"></script>
+
+</head>
+
+<body>
+  
+
+<header id="l_header" class="l_header auto shadow blur show" style="opacity: 0">
+  <div class="container">
+  <div id="wrapper">
+    <div class="nav-sub">
+      <p class="title"></p>
+      <ul class="switcher nav-list-h m-phone" id="pjax-header-nav-list">
+        <li><a id="s-comment" class="fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
+        
+          <li><a id="s-toc" class="s-toc fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
+        
+      </ul>
+    </div>
+		<div class="nav-main">
+      
+        
+        <a class="title flat-box" target="_self" href="/">
+          
+            <img no-lazy class="logo" src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png">
+          
+          
+          
+        </a>
+      
+
+			<div class="menu navigation">
+				<ul class="nav-list-h m-pc">
+          
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href="/getting-started/" target="_self" id="getting-started">
+                  <i class="fad fa-flag faa-tada fa-fw"></i>开始
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href="/getting-started/" target="_self" id="getting-started">
+                  <i class="fad fa-book faa-tada fa-fw"></i>文档
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href="/examples/" id="examples">
+                  <i class="fad fa-play-circle faa-tada fa-fw"></i>示例
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href="/faqs/" id="faqs">
+                  <i class="fad fa-question-circle faa-tada fa-fw"></i>帮助
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href="/contributors/" id="contributors">
+                  <i class="fad fa-fan fa-spin fa-fw"></i>社区
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover">
+                  <i class="fad fa-ellipsis-v fa-fw"></i>更多
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href="https://github.com/volantis-x/volantis-docs/" id="https:githubcomvolantis-xvolantis-docs" rel="external nofollow noopener noreferrer" target="_blank">
+                  本站源码
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href="https://github.com/volantis-x/hexo-theme-volantis/" id="https:githubcomvolantis-xhexo-theme-volantis" rel="external nofollow noopener noreferrer" target="_blank">
+                  主题源码
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <hr>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href="https://github.com/volantis-x/hexo-theme-volantis/releases/" id="https:githubcomvolantis-xhexo-theme-volantisreleases" rel="external nofollow noopener noreferrer" target="_blank">
+                  更新日志
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href="/archives/" id="archives">
+                  博客文章
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <hr>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href="/v3/getting-started/" id="v3getting-started">
+                  旧版文档 v3
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href="/v2/getting-started/" id="v2getting-started">
+                  旧版文档 v2
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+          
+				</ul>
+			</div>
+
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="Search...">
+        </form>
+      </div>
+
+			<ul class="switcher nav-list-h m-phone">
+				
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
+				
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href="/getting-started/" target="_self" id="getting-started">
+                  <i class="fad fa-flag faa-tada fa-fw"></i>开始
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href="/getting-started/" target="_self" id="getting-started">
+                  <i class="fad fa-book faa-tada fa-fw"></i>文档
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href="/examples/" id="examples">
+                  <i class="fad fa-play-circle faa-tada fa-fw"></i>示例
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href="/faqs/" id="faqs">
+                  <i class="fad fa-question-circle faa-tada fa-fw"></i>帮助
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href="/contributors/" id="contributors">
+                  <i class="fad fa-fan fa-spin fa-fw"></i>社区
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover">
+                  <i class="fad fa-ellipsis-v fa-fw"></i>更多
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href="https://github.com/volantis-x/volantis-docs/" id="https:githubcomvolantis-xvolantis-docs" rel="external nofollow noopener noreferrer" target="_blank">
+                  本站源码
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href="https://github.com/volantis-x/hexo-theme-volantis/" id="https:githubcomvolantis-xhexo-theme-volantis" rel="external nofollow noopener noreferrer" target="_blank">
+                  主题源码
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <hr>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href="https://github.com/volantis-x/hexo-theme-volantis/releases/" id="https:githubcomvolantis-xhexo-theme-volantisreleases" rel="external nofollow noopener noreferrer" target="_blank">
+                  更新日志
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href="/archives/" id="archives">
+                  博客文章
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <hr>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href="/v3/getting-started/" id="v3getting-started">
+                  旧版文档 v3
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href="/v2/getting-started/" id="v2getting-started">
+                  旧版文档 v2
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
+			</ul>
+		</div>
+	</div>
+  </div>
+</header>
+
+  <div id="l_body">
+    <div id="l_cover">
+  
+    
+        <div id="full" class="cover-wrapper page dock" style="display: none;">
+          
+            <div class="cover-bg lazyload placeholder" data-bg="https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/052.jpg"></div>
+          
+          <div class="cover-body">
+  <div class="top">
+    
+    
+      <p class="title">Volantis</p>
+    
+    
+      <p class="subtitle">开源社区主页</p>
+    
+  </div>
+  <div class="bottom">
+    <div class="menu navigation">
+      <div class="list-h">
+        
+          
+            <a href="/" id="home">
+              <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg" srcset="data:image/png;base64,666"><p>文章</p>
+            </a>
+          
+            <a href="/getting-started/" target="_self" id="getting-started">
+              <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f516.svg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f516.svg" srcset="data:image/png;base64,666"><p>文档</p>
+            </a>
+          
+            <a href="/examples/" id="examples">
+              <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f396.svg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f396.svg" srcset="data:image/png;base64,666"><p>示例</p>
+            </a>
+          
+            <a href="/faqs/" id="faqs">
+              <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4ac.svg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4ac.svg" srcset="data:image/png;base64,666"><p>帮助</p>
+            </a>
+          
+            <a href="/contributors/" id="contributors">
+              <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f9e9.svg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f9e9.svg" srcset="data:image/png;base64,666"><p>团队</p>
+            </a>
+          
+            <a href="/archives/" id="archives">
+              <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg" srcset="data:image/png;base64,666"><p>归档</p>
+            </a>
+          
+            <a href="https://github.com/volantis-x/hexo-theme-volantis/" target="_blank" id="https:githubcomvolantis-xhexo-theme-volantis" rel="external nofollow noopener noreferrer">
+              <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f9ec.svg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f9ec.svg" srcset="data:image/png;base64,666"><p>源码</p>
+            </a>
+          
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+          <div id="scroll-down" style="display: none;"><i class="fa fa-chevron-down scroll-down-effects"></i></div>
+        </div>
+    
+  
+  </div>
+
+    <div id="safearea">
+      <div class="body-wrapper" id="pjax-container">
+        
+
+<div class="l_main">
+  <article class="article post white-box reveal md shadow article-type-page" id="page" itemscope itemprop="blogPost">
+  
+
+
+  
+  <div class="article-meta" id="top">
+    
+    
+    
+      <h1 class="title">
+        第三方插件
+      </h1>
+      <div class="new-meta-box">
+        
+          
+            
+<div class="new-meta-item author">
+  <a class="author" target="_blank" href="https://github.com/volantis-x/" rel="external nofollow noopener noreferrer">
+    <img no-lazy src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/apple-touch-icon.png">
+    <p>Volantis Team</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class="notlink">
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2020年9月21日</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  <div class="new-meta-item browse leancloud">
+    <a class="notlink">
+      
+      <div id="lc-pv" data-title="第三方插件" data-path="/v3/theme-settings/plugins/">
+        <i class="fas fa-eye fa-fw" aria-hidden="true"></i>
+        <span id="number"><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span>
+        次浏览
+      </div>
+    </a>
+  </div>
+
+
+          
+        
+      </div>
+    
+  </div>
+
+
+  
+  <h2 id="插件库"><a href="#插件库" class="headerlink" title="插件库"></a>插件库</h2><p>Volantis 为丰富的插件提供了兼容性优化。大部分插件您只需开启和关闭，无需进行设置。</p>
+<figure class="highlight yaml"><figcaption><span>blog/_config.volantis.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">plugins:</span></span><br><span class="line">  <span class="comment">################ required plugins ################</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># jquery</span></span><br><span class="line">  <span class="attr">jquery:</span> <span class="string">https://cdn.jsdelivr.net/npm/jquery@3.5/dist/jquery.min.js</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">################ optional plugins ################</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># fontawesome</span></span><br><span class="line">  <span class="attr">fontawesome:</span> <span class="string">https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13/css/all.min.css</span></span><br><span class="line">  <span class="comment"># fontawesome animation</span></span><br><span class="line">  <span class="attr">fontawesome_animation:</span> <span class="string">https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css</span></span><br><span class="line">  <span class="comment"># fancybox</span></span><br><span class="line">  <span class="attr">fancybox:</span> <span class="string">https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  <span class="comment">######## Plugins to improve loading speed:</span></span><br><span class="line">  <span class="comment"># Preload (The menu&#x27;s url must end with ‘/’)</span></span><br><span class="line">  <span class="attr">instant_page:</span> <span class="string">https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@2/js/instant_page.js</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">######## Plugins to optimize the experience:</span></span><br><span class="line">  <span class="comment"># highlight.js</span></span><br><span class="line">  <span class="attr">highlightjs:</span></span><br><span class="line">    <span class="attr">js:</span> <span class="string">https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js</span></span><br><span class="line">    <span class="attr">css:</span> <span class="string">https://cdn.jsdelivr.net/npm/highlight.js@9.18.1/styles/solarized-light.css</span></span><br><span class="line">    <span class="comment"># more: https://www.jsdelivr.com/package/npm/highlight.js?path=styles</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># https://scrollrevealjs.org/api/reveal.html</span></span><br><span class="line">  <span class="attr">scrollreveal:</span></span><br><span class="line">    <span class="attr">js:</span> <span class="string">https://cdn.jsdelivr.net/npm/scrollreveal@4.0.6/dist/scrollreveal.min.js</span></span><br><span class="line">    <span class="attr">distance:</span> <span class="string">32px</span></span><br><span class="line">    <span class="attr">duration:</span> <span class="number">800</span> <span class="comment"># ms</span></span><br><span class="line">    <span class="attr">interval:</span> <span class="number">20</span> <span class="comment"># ms</span></span><br><span class="line">    <span class="attr">scale:</span> <span class="number">1</span> <span class="comment"># 0.1~1</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Codeblock Copy Button</span></span><br><span class="line">  <span class="attr">clipboard:</span> <span class="string">https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">######## Plugins for SEO:</span></span><br><span class="line">  <span class="comment"># Traffic statistics (very slow loading)</span></span><br><span class="line">  <span class="attr">busuanzi:</span> <span class="string">https://cdn.jsdelivr.net/gh/volantis-x/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># npm i --save hexo-wordcount</span></span><br><span class="line">  <span class="attr">wordcount:</span> <span class="comment">#true</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">######## Plugins for ...</span></span><br><span class="line">  <span class="comment"># Button Ripple Effect</span></span><br><span class="line">  <span class="attr">nodewaves:</span></span><br><span class="line">    <span class="attr">css:</span> <span class="string">https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css</span></span><br><span class="line">    <span class="attr">js:</span> <span class="string">https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Typing Effects</span></span><br><span class="line">  <span class="attr">comment_typing:</span> <span class="comment">#https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@2/js/comment_typing.js</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Slide Background</span></span><br><span class="line">  <span class="attr">backstretch:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">js:</span> <span class="string">https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js</span></span><br><span class="line">    <span class="attr">position:</span> <span class="string">cover</span>       <span class="comment"># cover: sticky on the cover.   fixed: Fixed as background for the site.</span></span><br><span class="line">    <span class="attr">shuffle:</span> <span class="literal">true</span>         <span class="comment"># shuffle playlist</span></span><br><span class="line">    <span class="attr">duration:</span> <span class="number">20000</span>       <span class="comment"># Duration (ms)</span></span><br><span class="line">    <span class="attr">fade:</span> <span class="number">1500</span>            <span class="comment"># fade duration (ms) (Not more than 1500)</span></span><br><span class="line">    <span class="attr">images:</span>               <span class="comment"># For personal use only. At your own risk if used for commercial purposes !!!</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/001.jpg</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/002.jpg</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/003.jpg</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/004.jpg</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/005.jpg</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/006.jpg</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/012.jpg</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/016.jpg</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/019.jpg</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/025.jpg</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/033.jpg</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/034.jpg</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/035.jpg</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/038.jpg</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/039.jpg</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/042.jpg</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/046.jpg</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/051.jpg</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/052.jpg</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/054.jpg</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/056.jpg</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># APlayer is only available in mainland China.</span></span><br><span class="line">  <span class="comment"># APlayer config: https://github.com/metowolf/MetingJS</span></span><br><span class="line">  <span class="attr">aplayer:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">js:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">js/aplayer.js</span></span><br><span class="line">    <span class="comment"># Required</span></span><br><span class="line">    <span class="attr">server:</span> <span class="string">netease</span>   <span class="comment"># netease, tencent, kugou, xiami, baidu</span></span><br><span class="line">    <span class="attr">type:</span> <span class="string">playlist</span>    <span class="comment"># song, playlist, album, search, artist</span></span><br><span class="line">    <span class="attr">id:</span> <span class="number">3175833810</span>    <span class="comment"># song id / playlist id / album id / search keyword</span></span><br><span class="line">    <span class="comment"># Optional</span></span><br><span class="line">    <span class="attr">fixed:</span> <span class="literal">false</span>      <span class="comment"># enable fixed mode</span></span><br><span class="line">    <span class="attr">theme:</span> <span class="string">&#x27;#1BCDFC&#x27;</span>  <span class="comment"># main color</span></span><br><span class="line">    <span class="attr">autoplay:</span> <span class="literal">false</span>   <span class="comment"># audio autoplay</span></span><br><span class="line">    <span class="attr">order:</span> <span class="string">list</span>       <span class="comment"># player play order, values: &#x27;list&#x27;, &#x27;random&#x27;</span></span><br><span class="line">    <span class="attr">loop:</span> <span class="string">all</span>         <span class="comment"># player loop play, values: &#x27;all&#x27;, &#x27;one&#x27;, &#x27;none&#x27;</span></span><br><span class="line">    <span class="attr">volume:</span> <span class="number">0.7</span>       <span class="comment"># default volume, notice that player will remember user setting, default volume will not work after user set volume themselves</span></span><br><span class="line">    <span class="attr">list_max_height:</span> <span class="string">320px</span> <span class="comment"># list max height</span></span><br><span class="line">    <span class="attr">list_folded:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">pjax:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">timeout:</span> <span class="number">5000</span>        <span class="comment"># The timeout in milliseconds for the XHR requests. Set to 0 to disable the timeout.</span></span><br><span class="line">    <span class="attr">cacheBust:</span> <span class="literal">false</span>     <span class="comment"># When set to true, Pjax appends a timestamp  to skip the browser cache.</span></span><br><span class="line">    <span class="attr">animation:</span> <span class="string">nprogress</span> <span class="comment"># nprogress, circle</span></span><br><span class="line">    <span class="attr">banUrl:</span>              <span class="comment"># 被屏蔽的 url 地址将不启用 pjax 跳转，可以在控制台下使用 window.location.pathname 获取</span></span><br><span class="line">      <span class="comment"># - &#x27;/about/index.html&#x27;</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Artitalk https://artitalk.js.org</span></span><br><span class="line">  <span class="comment"># 配置过程请参考：https://artitalk.js.org/doc.html</span></span><br><span class="line">  <span class="comment"># 除appID和appKEY外均为选填项</span></span><br><span class="line">  <span class="attr">Artitalk:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">false</span> <span class="comment"># true为开启，false为关闭</span></span><br><span class="line">    <span class="attr">appID:</span> <span class="string">ogP8qj3veMh0LFpFWMPOyF0X-MdYXbMMI</span> <span class="comment"># your appID</span></span><br><span class="line">    <span class="attr">appKEY:</span> <span class="string">nHXLd3N3Jgh460t2iRQKWAtr</span> <span class="comment"># your appKEY</span></span><br><span class="line">    <span class="comment"># severurl:  #leancloud绑定的安全域名，使用国际版的话不需要填写</span></span><br><span class="line">    <span class="comment"># slanguage: # 语言设置，zh为汉语，en为英语，es为西班牙语。默认为汉语</span></span><br><span class="line">    <span class="comment"># per: #每页说说的显示数量</span></span><br><span class="line">    <span class="comment"># placeholder1: #在编辑说说的输入框中的占位符</span></span><br><span class="line">    <span class="comment"># placeholder2: #自定义头像url的输入框的占位符</span></span><br><span class="line">    <span class="comment"># lazy: #加载动画的开关，1为开，0为关，默认为开</span></span><br><span class="line">    <span class="comment"># bgimg: #说说输入框背景图片url</span></span><br><span class="line">    <span class="comment"># color1: #说说背景颜色1&amp;按钮颜色1</span></span><br><span class="line">    <span class="comment"># color2: #说说背景颜色2&amp;按钮颜色2</span></span><br><span class="line">    <span class="comment"># color3: #说说字体颜色</span></span><br><span class="line">  <span class="comment">##################################</span></span><br><span class="line">  <span class="comment"># 暗黑模式 darkmodejs</span></span><br><span class="line">  <span class="comment"># https://darkmodejs.learn.uno</span></span><br><span class="line">  <span class="comment"># 暗黑模式样式：https://github.com/volantis-x/hexo-theme-volantis/blob/master/source/css/_third-party/darkmode.styl</span></span><br><span class="line">  <span class="attr">darkmodejs:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">js:</span> <span class="string">https://cdn.jsdelivr.net/npm/darkmode-js@1.5/lib/darkmode-js.min.js</span></span><br><span class="line">    <span class="attr">bottom:</span> <span class="string">32px</span></span><br><span class="line">    <span class="attr">right:</span> <span class="string">unset</span></span><br><span class="line">    <span class="attr">left:</span> <span class="string">16px</span></span><br><span class="line">    <span class="attr">time:</span> <span class="string">0s</span></span><br><span class="line">    <span class="attr">mixColor:</span> <span class="string">&#x27;#f4f4f4&#x27;</span></span><br><span class="line">    <span class="attr">backgroundColor:</span> <span class="string">&#x27;#f4f4f4&#x27;</span></span><br><span class="line">    <span class="attr">buttonColorDark:</span> <span class="string">&#x27;#100f2c&#x27;</span></span><br><span class="line">    <span class="attr">buttonColorLight:</span> <span class="string">&#x27;#f4f4f4&#x27;</span></span><br><span class="line">    <span class="attr">saveInCookies:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">label:</span> <span class="string">🌓</span></span><br><span class="line">    <span class="attr">autoMatchOsTheme:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="幻灯片背景"><a href="#幻灯片背景" class="headerlink" title="幻灯片背景"></a>幻灯片背景</h2><figure class="highlight yaml"><figcaption><span>blog/_config.volantis.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">plugins:</span></span><br><span class="line">  <span class="string">...</span></span><br><span class="line">  <span class="attr">backstretch:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">js:</span> <span class="string">https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js</span></span><br><span class="line">    <span class="attr">position:</span> <span class="string">cover</span>       <span class="comment"># cover: sticky on the cover.   fixed: Fixed as background for the site.</span></span><br><span class="line">    <span class="attr">duration:</span> <span class="number">20000</span>       <span class="comment"># Duration (ms)</span></span><br><span class="line">    <span class="attr">fade:</span> <span class="number">1500</span>            <span class="comment"># fade duration (ms) (Not more than 1500)</span></span><br><span class="line">    <span class="attr">images:</span>               <span class="comment"># For personal use only. At your own risk if used for commercial purposes !!!</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper/abstract/41F215B9-261F-48B4-80B5-4E86E165259E.jpeg</span></span><br><span class="line">      <span class="string">...</span></span><br></pre></td></tr></table></figure>
+<p>幻灯片背景图片显示的位置可以选择粘贴在封面上，跟随封面一起滑动，也可以选择固定作为网页背景图片。</p>
+<h2 id="highlight-js"><a href="#highlight-js" class="headerlink" title="highlight.js"></a>highlight.js</h2><figure class="highlight yaml"><figcaption><span>blog/_config.volantis.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">plugins:</span></span><br><span class="line">  <span class="string">...</span></span><br><span class="line">  <span class="attr">highlightjs:</span></span><br><span class="line">    <span class="attr">js:</span> <span class="string">https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js</span></span><br><span class="line">    <span class="attr">css:</span> <span class="string">https://cdn.jsdelivr.net/npm/highlight.js@9.18.1/styles/solarized-light.css</span></span><br></pre></td></tr></table></figure>
+<p>如果需要使用 highlight.js 进行语法高亮，请将站点配置文件中的 <code>highlight.enable</code> 设置为 <code>false</code> 否则不会加载插件。您可以在 <u>94</u> 种 <a href="https://www.jsdelivr.com/package/npm/highlight.js?path=styles" target="_blank" rel="external nofollow noopener noreferrer">语法高亮主题</a> 中挑选喜爱的主题，然后替换上面的 css 链接。</p>
+<div class="note warning"><p>如果您使用 highlight.js 请确保没有使用 hexo 官方的 codeblock 标签，否则会报错。</p></div>
+<div class="note bug red"><p>经测试，使用 highlight.js 的情况下，部分容器内的代码可能仍然会被渲染甚至报错。</p></div>
+
+<h2 id="APlayer-音乐播放器"><a href="#APlayer-音乐播放器" class="headerlink" title="APlayer 音乐播放器"></a>APlayer 音乐播放器</h2><figure class="highlight yaml"><figcaption><span>blog/_config.volantis.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">plugins:</span></span><br><span class="line">  <span class="string">...</span></span><br><span class="line">  <span class="attr">aplayer:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">js:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js</span></span><br><span class="line">    <span class="comment"># Required</span></span><br><span class="line">    <span class="attr">server:</span> <span class="string">netease</span>   <span class="comment"># netease, tencent, kugou, xiami, baidu</span></span><br><span class="line">    <span class="attr">type:</span> <span class="string">playlist</span>    <span class="comment"># song, playlist, album, search, artist</span></span><br><span class="line">    <span class="attr">id:</span> <span class="number">3175833810</span>    <span class="comment"># song id / playlist id / album id / search keyword</span></span><br><span class="line">    <span class="comment"># Optional</span></span><br><span class="line">    <span class="attr">fixed:</span> <span class="literal">false</span>      <span class="comment"># enable fixed mode</span></span><br><span class="line">    <span class="attr">theme:</span> <span class="string">&#x27;#1BCDFC&#x27;</span>  <span class="comment"># main color</span></span><br><span class="line">    <span class="attr">autoplay:</span> <span class="literal">false</span>   <span class="comment"># audio autoplay</span></span><br><span class="line">    <span class="attr">order:</span> <span class="string">list</span>       <span class="comment"># player play order, values: &#x27;list&#x27;, &#x27;random&#x27;</span></span><br><span class="line">    <span class="attr">loop:</span> <span class="string">all</span>         <span class="comment"># player loop play, values: &#x27;all&#x27;, &#x27;one&#x27;, &#x27;none&#x27;</span></span><br><span class="line">    <span class="attr">volume:</span> <span class="number">0.7</span>       <span class="comment"># default volume, notice that player will remember user setting, default volume will not work after user set volume themselves</span></span><br><span class="line">    <span class="attr">list_max_height:</span> <span class="string">340px</span> <span class="comment"># list max height</span></span><br><span class="line">    <span class="attr">list_folded:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<div class="note warning"><p>APlayer播放器只可以在中国大陆地区使用。相关文档： <a href="https://aplayer.js.org/" target="_blank" rel="external nofollow noopener noreferrer">APlayer</a> | <a href="https://github.com/metowolf/MetingJS" target="_blank" rel="external nofollow noopener noreferrer">MetingJS</a></p></div>
+
+<h2 id="Artitalk"><a href="#Artitalk" class="headerlink" title="Artitalk"></a>Artitalk</h2><figure class="highlight yaml"><figcaption><span>blog/_config.volantis.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">plugins:</span></span><br><span class="line">  <span class="string">...</span></span><br><span class="line">  <span class="comment"># Artitalk https://artitalk.js.org</span></span><br><span class="line">  <span class="comment"># 配置过程请参考：https://artitalk.js.org/doc.html</span></span><br><span class="line">  <span class="comment"># 除appID和appKEY外均为选填项</span></span><br><span class="line">  <span class="attr">Artitalk:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">false</span> <span class="comment"># true为开启，false为关闭</span></span><br><span class="line">    <span class="attr">appID:</span> <span class="string">ogP8qj3veMh0LFpFWMPOyF0X-MdYXbMMI</span> <span class="comment"># your appID</span></span><br><span class="line">    <span class="attr">appKEY:</span> <span class="string">nHXLd3N3Jgh460t2iRQKWAtr</span> <span class="comment"># your appKEY</span></span><br><span class="line">    <span class="comment"># severurl:  #leancloud绑定的安全域名，使用国际版的话不需要填写</span></span><br><span class="line">    <span class="comment"># slanguage: # 语言设置，zh为汉语，en为英语，es为西班牙语。默认为汉语</span></span><br><span class="line">    <span class="comment"># per: #每页说说的显示数量</span></span><br><span class="line">    <span class="comment"># placeholder1: #在编辑说说的输入框中的占位符</span></span><br><span class="line">    <span class="comment"># placeholder2: #自定义头像url的输入框的占位符</span></span><br><span class="line">    <span class="comment"># lazy: #加载动画的开关，1为开，0为关，默认为开</span></span><br><span class="line">    <span class="comment"># bgimg: #说说输入框背景图片url</span></span><br><span class="line">    <span class="comment"># color1: #说说背景颜色1&amp;按钮颜色1</span></span><br><span class="line">    <span class="comment"># color2: #说说背景颜色2&amp;按钮颜色2</span></span><br><span class="line">    <span class="comment"># color3: #说说字体颜色</span></span><br></pre></td></tr></table></figure>
+
+  
+  
+  
+    
+
+
+  <div class="article-meta" id="bottom">
+    <div class="new-meta-box">
+      
+        
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-09-21T18:22:06+08:00">
+  <a class="notlink">
+    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <p>本页文档最后更新于：2020年9月21日</p>
+  </a>
+</div>
+
+        
+      
+        
+          
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
+    
+      
+        <a class="-mob-share-qq" title rel="external nofollow noopener noreferrer" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://volantis.js.org/v3/theme-settings/plugins/&title=第三方插件 - Volantis&summary=">
+          
+            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png" srcset="data:image/png;base64,666">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title rel="external nofollow noopener noreferrer" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://volantis.js.org/v3/theme-settings/plugins/&title=第三方插件 - Volantis&summary=">
+          
+            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png" srcset="data:image/png;base64,666">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title rel="external nofollow noopener noreferrer" target="_blank" href="http://service.weibo.com/share/share.php?url=https://volantis.js.org/v3/theme-settings/plugins/&title=第三方插件 - Volantis&summary=">
+          
+            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png" srcset="data:image/png;base64,666">
+          
+        </a>
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+
+
+        
+      
+    </div>
+  </div>
+
+
+  
+  
+    
+    
+  
+
+  
+</article>
+
+
+  
+
+  <article class="post white-box reveal shadow" id="comments">
+    <p ct></p>
+    
+    <div id="disqus_thread">
+  <div id="notShowDisqus" style="display: none;text-align: center;"><i class="fas fa-exclamation-triangle"></i>&nbsp;无法加载 Disqus 评论系统，请确保您的网络能够正常访问。</div>
+  <div id="load-btns"><a class="load-comments" onclick="needLoadDisqus()">点击加载 Disqus 评论</a></div>
+  <div id="loading-comments" style="display: none"><i class="fa fa-cog fa-spin fa-fw fa-2x"></i><br>正在检查 Disqus 能否访问...</div>
+</div>
+
+  </article>
+
+
+
+
+
+
+</div>
+<aside class="l_side">
+  
+  
+    
+    
+
+
+  
+
+<section class="widget list group shadow desktop mobile">
+  
+  <header>
+    
+      <i class="fad fa-list-alt fa-fw" aria-hidden="true"></i><span class="name">文档导航 v3</span>
+    
+  </header>
+
+
+  <div class="content">
+    <ul class="list entry navigation">
+      
+        <li><a class="flat-box" title="/v3/getting-started/" href="/v3/getting-started/" id="v3getting-started">
+          <div class="name">
+            
+            1-1 安装与版本更新
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/site-settings/configuration/" href="/v3/site-settings/configuration/" id="v3site-settingsconfiguration">
+          <div class="name">
+            
+            2-1 站点配置文件
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/theme-settings/configuration/" href="/v3/theme-settings/configuration/" id="v3theme-settingsconfiguration">
+          <div class="name">
+            
+            3-1 主题配置文件
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/theme-settings/style/" href="/v3/theme-settings/style/" id="v3theme-settingsstyle">
+          <div class="name">
+            
+            3-2 自定义主题外观
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/theme-settings/navbar/" href="/v3/theme-settings/navbar/" id="v3theme-settingsnavbar">
+          <div class="name">
+            
+            3-3 设置网站导航栏
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/theme-settings/footer/" href="/v3/theme-settings/footer/" id="v3theme-settingsfooter">
+          <div class="name">
+            
+            3-4 设置网站页脚
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/theme-settings/cover/" href="/v3/theme-settings/cover/" id="v3theme-settingscover">
+          <div class="name">
+            
+            3-5 网站与文章封面
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/theme-settings/layout/" href="/v3/theme-settings/layout/" id="v3theme-settingslayout">
+          <div class="name">
+            
+            3-6 设置默认布局
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/theme-settings/meta/" href="/v3/theme-settings/meta/" id="v3theme-settingsmeta">
+          <div class="name">
+            
+            3-7 元数据组件
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/theme-settings/widget/" href="/v3/theme-settings/widget/" id="v3theme-settingswidget">
+          <div class="name">
+            
+            3-8 卡片式组件
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/theme-settings/comments/" href="/v3/theme-settings/comments/" id="v3theme-settingscomments">
+          <div class="name">
+            
+            3-9 选择评论系统
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/theme-settings/search/" href="/v3/theme-settings/search/" id="v3theme-settingssearch">
+          <div class="name">
+            
+            3-10 站内搜索
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/theme-settings/plugins/" href="/v3/theme-settings/plugins/" id="v3theme-settingsplugins">
+          <div class="name">
+            
+            3-11 第三方插件
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/page-settings/layout/" href="/v3/page-settings/layout/" id="v3page-settingslayout">
+          <div class="name">
+            
+            4-1 页面布局模板
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/page-settings/front-matter/" href="/v3/page-settings/front-matter/" id="v3page-settingsfront-matter">
+          <div class="name">
+            
+            4-2 front-matter
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/page-settings/body/" href="/v3/page-settings/body/" id="v3page-settingsbody">
+          <div class="name">
+            
+            4-3 页面自定义布局
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/page-settings/math/" href="/v3/page-settings/math/" id="v3page-settingsmath">
+          <div class="name">
+            
+            4-4 渲染公式
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/tag-plugins/text/" href="/v3/tag-plugins/text/" id="v3tag-pluginstext">
+          <div class="name">
+            
+            5-1 文本和段落标签
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/tag-plugins/link/" href="/v3/tag-plugins/link/" id="v3tag-pluginslink">
+          <div class="name">
+            
+            5-2 链接、按钮和菜单标签
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/tag-plugins/container/" href="/v3/tag-plugins/container/" id="v3tag-pluginscontainer">
+          <div class="name">
+            
+            5-3 容器类标签
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/tag-plugins/media/" href="/v3/tag-plugins/media/" id="v3tag-pluginsmedia">
+          <div class="name">
+            
+            5-4 多媒体标签
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/tag-plugins/hexo/" href="/v3/tag-plugins/hexo/" id="v3tag-pluginshexo">
+          <div class="name">
+            
+            5-5 Hexo 内置标签
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/advanced-settings/" href="/v3/advanced-settings/" id="v3advanced-settings">
+          <div class="name">
+            
+            6-1 进阶设定
+          </div>
+          
+        </a></li>
+      
+    </ul>
+  </div>
+</section>
+
+
+
+  
+
+  
+    
+    
+
+
+
+  <section class="widget toc-wrapper shadow desktop mobile" id="toc-div">
+    
+  <header>
+    
+      <i class="fas fa-list fa-fw" aria-hidden="true"></i><span class="name">本文目录</span>
+    
+  </header>
+
+
+    <div class="content">
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8F%92%E4%BB%B6%E5%BA%93"><span class="toc-text">插件库</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B9%BB%E7%81%AF%E7%89%87%E8%83%8C%E6%99%AF"><span class="toc-text">幻灯片背景</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#highlight-js"><span class="toc-text">highlight.js</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#APlayer-%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8"><span class="toc-text">APlayer 音乐播放器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Artitalk"><span class="toc-text">Artitalk</span></a></li></ol>
+    </div>
+  </section>
+
+
+  
+
+  
+    
+    
+
+<section class="widget text shadow desktop">
+  
+  <header>
+    
+      <a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/xaoxuu/"><i class="fab fa-github fa-fw" aria-hidden="true"></i><span class="name">点个赞吧</span></a>
+    
+  </header>
+
+
+  <div class="content">
+    
+      <p>我近期在找工作，希望您能够帮忙给下面这个项目点亮 Star 并保留两三个月，非常感谢。</p>
+
+    
+      <p><a href="https://github.com/xaoxuu/ProHUD" target="_blank" rel="external nofollow noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/logo.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/logo.png" srcset="data:image/png;base64,666" height="50px"></a></p>
+
+    
+  </div>
+</section>
+
+  
+
+
+</aside>
+
+
+
+        
+          
+<div class="snackbar-wrap" theme="warning">
+  <div class="snackbar-content">
+    <div class="title"><p>过期的文档</p>
+</div>
+    <div class="message"><p>这份文档过于久远，如果您使用的是新版的主题，请查看新版本的文档。</p>
+</div>
+    
+      <div class="action">
+        
+          
+            <a href="/getting-started/">
+              查看新版文档
+            </a>
+          
+        
+      </div>
+    
+  </div>
+</div>
+
+        
+        
+          <!--此文件用来存放一些不方便取值的变量-->
+<!--思路大概是将值藏到重加载的区域内-->
+
+<script>
+  window.pdata={}
+  pdata.ispage=false;
+  pdata.postTitle="";
+  pdata.commentPath="";
+  pdata.commentPlaceholder="";
+
+  var l_header=document.getElementById("l_header");
+  
+  l_header.classList.add("show");
+  
+</script>
+
+        
+      </div>
+      
+  
+  <footer class="footer clearfix">
+    <br><br>
+    
+      
+        <div class="aplayer-container">
+          
+
+  
+    <meting-js theme="#1BCDFC" autoplay="true" volume="0.4" loop="all" order="random" fixed="false" list-max-height="320px" server="netease" type="playlist" id="5062959861" list-folded="true">
+    </meting-js>
+  
+
+
+        </div>
+      
+    
+      
+        <br>
+        <div class="social-wrapper">
+          
+            
+              <a href="/atom.xml" class="social  flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+                
+                  <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/020-rss.svg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/020-rss.svg" srcset="data:image/png;base64,666">
+                
+              </a>
+            
+          
+            
+              <a href="https://github.com/volantis-x/" class="social  flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+                
+                  <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/029-github.svg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/029-github.svg" srcset="data:image/png;base64,666">
+                
+              </a>
+            
+          
+            
+              <a href="/" class="social  flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+                
+                  <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/010-facebook.svg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/010-facebook.svg" srcset="data:image/png;base64,666">
+                
+              </a>
+            
+          
+            
+              <a href="/" class="social  flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+                
+                  <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/018-twitter.svg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/018-twitter.svg" srcset="data:image/png;base64,666">
+                
+              </a>
+            
+          
+            
+              <a href="/" class="social  flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+                
+                  <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/045-telegram.svg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/045-telegram.svg" srcset="data:image/png;base64,666">
+                
+              </a>
+            
+          
+            
+              <a href="/" class="social  flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+                
+                  <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/006-youtube.svg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/006-youtube.svg" srcset="data:image/png;base64,666">
+                
+              </a>
+            
+          
+        </div>
+      
+    
+      
+        <p>本站使用 <a href="https://github.com/volantis-x/hexo-theme-volantis/tree/4.1.0" target="_blank" rel="external nofollow noopener noreferrer">Volantis</a> 作为主题，您可以在 GitHub 找到<a href="https://github.com/volantis-x/volantis-docs" target="_blank" rel="external nofollow noopener noreferrer">本站源码</a>。</p>
+
+      
+    
+      
+        
+          <div><p><span id="lc-sv">本站总访问量为 <span id="number"><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> 次</span> <span id="lc-uv">访客数为 <span id="number"><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> 人</span></p>
+</div>
+        
+      
+    
+      
+        <div class="copyright">
+        <p><a href="https://github.com/volantis-x/" target="_blank" rel="external nofollow noopener noreferrer">Copyright © 2017-2020 Volantis Team</a></p>
+
+        </div>
+      
+    
+  </footer>
+
+
+      <a id="s-top" class="fas fa-arrow-up fa-fw" href="javascript:void(0)"></a>
+    </div>
+  </div>
+  <div>
+    <script>
+window.volantis={};
+/********************脚本懒加载函数********************************/
+function loadScript(src, cb) {
+var HEAD = document.getElementsByTagName('head')[0] || document.documentElement;
+var script = document.createElement('script');
+script.setAttribute('type','text/javascript');
+if (cb) script.onload = cb;
+script.setAttribute('src', src);
+HEAD.appendChild(script);
+}
+//https://github.com/filamentgroup/loadCSS
+var loadCSS = function( href, before, media, attributes ){
+	var doc = window.document;
+	var ss = doc.createElement( "link" );
+	var ref;
+	if( before ){
+		ref = before;
+	}
+	else {
+		var refs = ( doc.body || doc.getElementsByTagName( "head" )[ 0 ] ).childNodes;
+		ref = refs[ refs.length - 1];
+	}
+	var sheets = doc.styleSheets;
+	if( attributes ){
+		for( var attributeName in attributes ){
+			if( attributes.hasOwnProperty( attributeName ) ){
+				ss.setAttribute( attributeName, attributes[attributeName] );
+			}
+		}
+	}
+	ss.rel = "stylesheet";
+	ss.href = href;
+	ss.media = "only x";
+	function ready( cb ){
+		if( doc.body ){
+			return cb();
+		}
+		setTimeout(function(){
+			ready( cb );
+		});
+	}
+	ready( function(){
+		ref.parentNode.insertBefore( ss, ( before ? ref : ref.nextSibling ) );
+	});
+	var onloadcssdefined = function( cb ){
+		var resolvedHref = ss.href;
+		var i = sheets.length;
+		while( i-- ){
+			if( sheets[ i ].href === resolvedHref ){
+				return cb();
+			}
+		}
+		setTimeout(function() {
+			onloadcssdefined( cb );
+		});
+	};
+	function loadCB(){
+		if( ss.addEventListener ){
+			ss.removeEventListener( "load", loadCB );
+		}
+		ss.media = media || "all";
+	}
+	if( ss.addEventListener ){
+		ss.addEventListener( "load", loadCB);
+	}
+	ss.onloadcssdefined = onloadcssdefined;
+	onloadcssdefined( loadCB );
+	return ss;
+};
+</script>
+<!-- required -->
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5/dist/jquery.min.js"></script>
+
+<script>
+  function pjax_fancybox() {
+    $(".md .gallery").find("img").each(function () { //渲染 fancybox
+      var element = document.createElement("a"); // a 标签
+      $(element).attr("class", "fancybox");
+      $(element).attr("pjax-fancybox", "");  // 过滤 pjax
+      $(element).attr("href", $(this).attr("src"));
+      if ($(this).attr("data-original")) {
+        $(element).attr("href", $(this).attr("data-original"));
+      }
+      $(element).attr("data-fancybox", "images");
+      var caption = "";   // 描述信息
+      if ($(this).attr('alt')) {  // 判断当前页面是否存在描述信息
+        $(element).attr('data-caption', $(this).attr('alt'));
+        caption = $(this).attr('alt');
+      }
+      var div = document.createElement("div");
+      $(div).addClass("fancybox");
+      $(this).wrap(div); // 最外层套 div ，其实主要作用还是 class 样式
+      var span = document.createElement("span");
+      $(span).addClass("image-caption");
+      $(span).text(caption); // 加描述
+      $(this).after(span);  // 再套一层描述
+      $(this).wrap(element);  // 最后套 a 标签
+    })
+    $(".md .gallery").find("img").fancybox({
+      selector: '[data-fancybox="images"]',
+      hash: false,
+      loop: false,
+      closeClick: true,
+      helpers: {
+        overlay: {closeClick: true}
+      },
+      buttons: [
+        "zoom",
+        "close"
+      ]
+    });
+  };
+  function SCload_fancybox() {
+    if ($(".md .gallery").find("img").length == 0) return;
+    loadCSS("https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css", document.getElementById("loadcss"));
+    setTimeout(function() {
+      loadScript('https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js', pjax_fancybox)
+    }, 1);
+  };
+  $(function () {
+    SCload_fancybox();
+  });
+</script>
+
+
+<!-- internal -->
+
+
+
+  
+  
+
+  <div id="rightmenu-wrapper">
+    <ul class="list-v rightmenu" id="rightmenu-content">
+      <li class="option">
+        <a class="vlts-menu opt fix-cursor-default" id="menu-copy-text" onclick="document.execCommand('copy')"><i class="fa fa-copy fa-fw"></i>复制文本</a>
+        <hr id="hr-text">
+        <a class="vlts-menu opt fix-cursor-default" id="menu-copy-href"><i class="fa fa-link fa-fw"></i>复制链接</a>
+        <a class="vlts-menu opt fix-cursor-default" id="menu-open-href"><i class="fa fa-external-link-square-alt fa-fw"></i>在新标签页打开</a>
+        <hr id="hr-href">
+        <a class="vlts-menu opt fix-cursor-default" id="menu-copy-src"><i class="fa fa-image fa-fw"></i>复制图片地址</a>
+        <hr id="hr-src">
+      </li>
+      
+        <li class="navigation">
+          <a class="nav icon-only fix-cursor-default" onclick="history.back()"><i class="fa fa-arrow-left fa-fw"></i></a>
+          <a class="nav icon-only fix-cursor-default" onclick="history.forward()"><i class="fa fa-arrow-right fa-fw"></i></a>
+          <a class="nav icon-only fix-cursor-default" onclick="window.location.reload()"><i class="fa fa-redo fa-fw"></i></a>
+          <a class="nav icon-only fix-cursor-default" href="/"><i class="fa fa-home fa-fw"></i></a>
+        </li>
+      
+      <hr>
+      
+        
+      
+        
+          
+    <li>
+      <a class="vlts-menu fix-cursor-default" href="https://volantis.js.org/faqs/" id="https:volantisjsorgfaqs">
+        <i class="fa fa-question fa-fw"></i> 常见问题
+      </a>
+    </li>
+  
+        
+      
+        
+          
+    <li>
+      <a class="vlts-menu fix-cursor-default" href="https://volantis.js.org/examples/" id="https:volantisjsorgexamples">
+        <i class="fa fa-rss fa-fw"></i> 示例博客
+      </a>
+    </li>
+  
+        
+      
+        
+          
+    <li>
+      <a class="vlts-menu fix-cursor-default" href="https://volantis.js.org/contributors/" id="https:volantisjsorgcontributors">
+        <i class="fa fa-fan fa-spin fa-fw"></i> 加入社区
+      </a>
+    </li>
+  
+        
+      
+        
+          <hr>
+        
+      
+        
+          
+    <li>
+      <a class="vlts-menu fix-cursor-default" href="https://github.com/volantis-x/volantis-docs/" id="https:githubcomvolantis-xvolantis-docs" rel="external nofollow noopener noreferrer" target="_blank">
+        <i class="fa fa-code-branch fa-fw"></i> 本站源码
+      </a>
+    </li>
+  
+        
+      
+        
+          
+    <li>
+      <a class="vlts-menu fix-cursor-default" href="https://github.com/volantis-x/hexo-theme-volantis/" id="https:githubcomvolantis-xhexo-theme-volantis" rel="external nofollow noopener noreferrer" target="_blank">
+        <i class="fa fa-code-branch fa-fw"></i> 主题源码
+      </a>
+    </li>
+  
+        
+      
+        
+          <hr>
+        
+      
+        
+          
+    <li>
+      <a class="vlts-menu fix-cursor-default" onclick="document.execCommand('print')">
+        <i class="fa fa-print fa-fw"></i> 打印页面
+      </a>
+    </li>
+  
+        
+      
+        
+          <hr>
+        
+      
+        
+          <li class="music name">
+            <p class="nav music-title fix-cursor-default"></p>
+          </li>
+          <li class="music ctrl">
+            <a class="nav icon-only backward fix-cursor-default" onclick="aplayerBackward()"><i class="fa fa-step-backward fa-fw"></i></a>
+            <a class="nav icon-only toggle fix-cursor-default" onclick="aplayerToggle()"><i class="fa fa-play fa-fw"></i></a>
+            <a class="nav icon-only forward fix-cursor-default" onclick="aplayerForward()"><i class="fa fa-step-forward fa-fw"></i></a>
+          </li>
+          <li class="music volume">
+            <a class="nav volume">
+              <div class="aplayer-volume-bar-wrap">
+                <div class="aplayer-volume-bar fix-cursor-pointer">
+                  <div class="aplayer-volume"></div>
+                  <i class="left fa fa-volume-off fa-fw"></i>
+                  <i class="right fa fa-volume-up fa-fw"></i>
+                </div>
+              </div>
+            </a>
+          </li>
+        
+      
+    </ul>
+  </div>
+
+  <script>
+    window.document.oncontextmenu = function (event) {
+      if (event.ctrlKey) return true;
+      if (/Android|webOS|BlackBerry/i.test(navigator.userAgent)) return true;
+      return popMenu(event);
+    };
+    document.addEventListener("click", function (event) {
+      var mymenu = document.getElementById('rightmenu-wrapper');
+      mymenu.style.display = "none";
+    });
+    function popMenu(event) {
+      var mymenu = document.getElementById('rightmenu-wrapper');
+      var menuContent = document.getElementById('rightmenu-content');
+      var screenWidth = document.documentElement.clientWidth || document.body.clientWidth;
+      var screenHeight = document.documentElement.clientHeight || document.body.clientHeight;
+      mymenu.style.left = event.clientX + "px"; // 获取鼠标位置
+      mymenu.style.top = event.clientY + "px";
+      mymenu.style.display = 'block';
+      if (event.clientX * 2 > screenWidth) {
+        menuContent.classList.add('left');
+      } else {
+        menuContent.classList.remove('left');
+      }
+      if (event.clientY * 2 > screenHeight) {
+        menuContent.classList.add('top');
+      } else {
+        menuContent.classList.remove('top');
+      }
+
+      let hrText = document.getElementById('hr-text');
+      let hrSrc = document.getElementById('hr-src');
+      let hrHref = document.getElementById('hr-href');
+
+      // 选中图片
+      let copySrc = document.getElementById('menu-copy-src');
+      if (copySrc != undefined) {
+        if (event.target.currentSrc) {
+          copySrc.style.display = 'block';
+          copySrc.addEventListener("click", function (e) {
+            copyString(event.target.currentSrc);
+          },{once: true});
+          hrSrc.style.display = 'block';
+        } else {
+          copySrc.style.display = 'none';
+          hrSrc.style.display = 'none';
+        }
+      }
+
+      // 选中按钮
+      // 判断是不是按钮
+      let href = '';
+      if (event.path) {
+        for (i = 0; i < event.path.length; i++) {
+          if (event.path[i].href != undefined && event.path[i].href.length > 0) {
+            href = event.path[i].href;
+          }
+        }
+      }
+
+      let copyText = document.getElementById('menu-copy-text');
+      copyText.style.display = 'none';
+      hrText.style.display = 'none';
+      if (href.length == 0) {
+        // 选中文本
+        if (window.getSelection().toString()) {
+          if ('true' == 'true') {
+            copyText.style.display = 'block';
+            hrText.style.display = 'block';
+          }
+        }
+      }
+
+      // 在新标签页打开
+      let openHref = document.getElementById('menu-open-href');
+      if (openHref != undefined) {
+        if (href.length > 0) {
+          openHref.style.display = 'block';
+          openHref.addEventListener("click", function (e) {
+            window.open(href);
+          },{once: true});
+          hrHref.style.display = 'block';
+        } else {
+          openHref.style.display = 'none';
+          hrHref.style.display = 'none';
+        }
+      }
+      // 复制链接
+      let copyHref = document.getElementById('menu-copy-href');
+      if (copyHref != undefined) {
+        if (href.length > 0) {
+          copyHref.style.display = 'block';
+          copyHref.addEventListener("click", function (e) {
+            copyString(href);
+          },{once: true});
+        } else {
+          copyHref.style.display = 'none';
+        }
+      }
+
+      // 有音乐播放器
+      if ('true' == true && ('home,help,examples,contributors,hr,source_docs,source_theme,hr,print,hr,music'||[]).includes('music')) {
+        // 如果有aplayer，初始化一下
+      	try {
+      		checkAPlayer();
+          updateTitle();
+      	} catch (error) {
+      		console.log(error);
+      	}
+      }
+
+      return false; // 该行代码确保系统自带的右键菜单不会被调出
+    }
+    function hideMenu() {
+      document.getElementById('rightmenu-wrapper').style.display = 'none';
+    }
+    function copyString(str) {
+      const input = document.createElement('input');
+      input.setAttribute('readonly', 'readonly');
+      document.body.appendChild(input);
+      input.setAttribute('value', str);
+      input.select();
+      document.execCommand('copy');
+      document.body.removeChild(input);
+    }
+    document.execCommand('click');
+  </script>
+
+
+
+
+
+  <script>
+  function loadIssuesJS() {
+    if ($(".md").find(".issues-api").length == 0) return;
+    setTimeout(function() {
+      loadScript('/js/issues.js');
+    }, 1);
+  };
+  $(function () {
+    loadIssuesJS();
+  });
+</script>
+
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script>
+<script>
+  // https://www.npmjs.com/package/vanilla-lazyload
+  // Set the options globally
+  // to make LazyLoad self-initialize
+  window.lazyLoadOptions = {
+    elements_selector: ".lazyload",
+    threshold: 0
+  };
+  // Listen to the initialization event
+  // and get the instance of LazyLoad
+  window.addEventListener(
+    "LazyLoad::Initialized",
+    function (event) {
+      window.lazyLoadInstance = event.detail.instance;
+    },
+    false
+  );
+  document.addEventListener('DOMContentLoaded', function () {
+    lazyLoadInstance.update();
+  });
+  document.addEventListener('pjax:complete', function () {
+    lazyLoadInstance.update();
+  });
+</script>
+
+
+
+
+  
+  
+    <script>
+      window.FPConfig = {
+        delay: 0,
+        ignoreKeywords: [],
+        maxRPS: 5,
+        hoverDelay: 25
+      };
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"></script>
+  
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+    var clipboard = new ClipboardJS('.btn-copy', {
+        target: function (trigger) {
+            return trigger.nextElementSibling
+        }
+    });
+    function wait(callback, seconds) {
+        var timelag = null;
+        timelag = window.setTimeout(callback, seconds)
+    }
+    function pjax_initCopyCode() {
+		if($(".highlight .code pre").length+$(".article pre code").length==0)return;
+        var copyHtml = '';
+        copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+        copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
+        copyHtml += '</button>';
+        $(".highlight .code pre").before(copyHtml);
+        $(".article pre code").before(copyHtml);
+        clipboard.off('success').on('success', function (e) {
+            let $btn = $(e.trigger);
+            $btn.addClass('copied');
+            let $icon = $($btn.find('i'));
+            $icon.removeClass('fa-copy');
+            $icon.addClass('fa-check-circle');
+            let $span = $($btn.find('span'));
+            $span[0].innerText = 'COPIED';
+            wait(function () {
+                $icon.removeClass('fa-check-circle');
+                $icon.addClass('fa-copy');
+                $span[0].innerText = 'COPY'
+            }, 2000)
+        });
+        clipboard.off('error').on('error', function (e) {
+            e.clearSelection();
+            let $btn = $(e.trigger);
+            $btn.addClass('copy-failed');
+            let $icon = $($btn.find('i'));
+            $icon.removeClass('fa-copy');
+            $icon.addClass('fa-times-circle');
+            let $span = $($btn.find('span'));
+            $span[0].innerText = 'COPY FAILED';
+            wait(function () {
+                $icon.removeClass('fa-times-circle');
+                $icon.addClass('fa-copy');
+                $span[0].innerText = 'COPY'
+            }, 2000)
+        })
+    }
+    $(function () {
+        pjax_initCopyCode()
+    });
+</script>
+
+
+
+
+
+
+  <script>
+  let APlayerController = new Object();
+  APlayerController.id = '5062959861';  // 设定全局音乐播放ID
+  APlayerController.volume = '0.4';
+</script>
+
+  
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js"></script>
+
+
+
+
+  
+<script src="/js/aplayer.js"></script>
+
+
+
+
+
+
+  <script>
+  const disqus_shortname = 'volantis';
+  const autoload = 'false';
+  const global_url = 'https://volantis.js.org';  //  must use an absolute URL; relative URLs won’t work.
+
+
+  function checkDisqus() {
+    // 正在检查 Disqus 能否访问...
+    const runcheck = (domain) => {
+        return new Promise((resolve, reject) => {
+            const img = new Image;
+            const timeout = setTimeout(() => {
+                img.onerror = img.onload = null;
+                reject();
+            }, 3000);
+            img.onerror = () => {
+                clearTimeout(timeout);
+                reject();
+            }
+            img.onload = () => {
+                clearTimeout(timeout);
+                resolve();
+            }
+            img.src = `https://${domain}/favicon.ico?${+(new Date)}=${+(new Date)}`;
+        })
+    }
+    return Promise.all([
+        runcheck('volantis.disqus.com')
+    ]).then(loadDisqus,showError);
+  }
+
+  function loadDisqus() {
+
+    let path = pdata.commentPath;
+    if (path.length == 0) {
+      let defaultPath = '/';
+      path = defaultPath || decodeURI(window.location.pathname);
+    }
+
+    if (window.DISQUS) {
+      window.DISQUS.reset({
+          reload: true,
+          config() {
+            this.page.identifier = global_url + path;
+            this.page.url = global_url + path;
+          }
+      });
+    } else {
+        window.disqus_config = function () {
+          this.page.url = global_url + path;
+          this.page.identifier = global_url + path;
+        };
+        let d = document, s = d.createElement('script');
+        s.async = true;
+        s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    }
+  }
+
+  // 加载错误
+  function showError() {
+    $('#loading-comments').hide();
+    $('#notShowDisqus').show();
+  }
+
+  // 点击了加载
+  function needLoadDisqus() {
+    checkDisqus();
+    $('#load-btns').hide();
+    $('#loading-comments').show();
+  }
+
+  // pjax 重载
+  function pjax_disqus() {
+    // 排除当前页面不存在评论框的情形
+    if ($('#disqus_thread').length == 0) {return}
+    // 如果 DISQUS 已被实例化，则可直接加载
+    if (window.DISQUS) {
+      $('#load-btns').hide();
+      $('#notShowDisqus').hide();
+      $('#loading-comments').hide();
+      loadDisqus();
+    } else if (autoload == 'true') {
+      // 设置自动加载但是上个页面加载失败了
+      needLoadDisqus();
+    }
+  }
+  if (autoload == 'true') {
+    needLoadDisqus();
+  }
+
+</script>
+
+
+
+
+
+  
+<script src="/js/app.js"></script>
+
+
+
+
+  
+    
+<script src="/js/search.js"></script>
+
+  
+
+
+<!-- optional -->
+
+  <script>
+const SearchServiceimagePath="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/img/";
+const ROOT =  ("/" || "/").endsWith('/') ? ("/" || "/") : ("//" || "/" );
+(function ($) {
+  
+    customSearch = new HexoSearch({
+      imagePath: SearchServiceimagePath
+    });
+  
+})(jQuery);
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  <script defer>
+
+  const LCCounter = {
+    app_id: 'GCYDRKI6XRkyC7EuEhJv90ia-MdYXbMMI',
+    app_key: '4xKBXGBj6BgecU62vff5rJHs',
+    custom_api_server: '',
+
+    // 查询存储的记录
+    getRecord(Counter, url, title) {
+      return new Promise(function (resolve, reject) {
+        Counter('get', '/classes/Counter?where=' + encodeURIComponent(JSON.stringify({url})))
+          .then(resp => resp.json())
+          .then(({results, code, error}) => {
+            if (code === 401) {
+              throw error;
+            }
+            if (results && results.length > 0) {
+              var record = results[0];
+              resolve(record);
+            } else {
+              Counter('post', '/classes/Counter', {url, title: title, times: 0})
+                .then(resp => resp.json())
+                .then((record, error) => {
+                  if (error) {
+                    throw error;
+                  }
+                  resolve(record);
+                }).catch(error => {
+                console.error('Failed to create', error);
+                reject(error);
+              });
+            }
+          }).catch((error) => {
+          console.error('LeanCloud Counter Error:', error);
+          reject(error);
+        });
+      })
+    },
+
+    // 发起自增请求
+    increment(Counter, incrArr) {
+      return new Promise(function (resolve, reject) {
+        Counter('post', '/batch', {
+          "requests": incrArr
+        }).then((res) => {
+          res = res.json();
+          if (res.error) {
+            throw res.error;
+          }
+          resolve(res);
+        }).catch((error) => {
+          console.error('Failed to save visitor count', error);
+          reject(error);
+        });
+      });
+    },
+
+    // 构建自增请求体
+    buildIncrement(objectId) {
+      return {
+        "method": "PUT",
+        "path": `/1.1/classes/Counter/${ objectId }`,
+        "body": {
+          "times": {
+            '__op': 'Increment',
+            'amount': 1
+          }
+        }
+      }
+    },
+
+    // 校验是否为有效的 UV
+    validUV() {
+      var key = 'LeanCloudUVTimestamp';
+      var flag = localStorage.getItem(key);
+      if (flag) {
+        // 距离标记小于 24 小时则不计为 UV
+        if (new Date().getTime() - parseInt(flag) <= 86400000) {
+          return false;
+        }
+      }
+      localStorage.setItem(key, new Date().getTime().toString());
+      return true;
+    },
+
+    addCount(Counter) {
+      var enableIncr = '' === 'true' && window.location.hostname !== 'localhost';
+      enableIncr = true;
+      var getterArr = [];
+      var incrArr = [];
+      // 请求 PV 并自增
+      var pvCtn = document.querySelector('#lc-sv');
+      if (pvCtn || enableIncr) {
+        var pvGetter = this.getRecord(Counter, 'https://volantis.js.org' + '/#lc-sv', 'Visits').then((record) => {
+          incrArr.push(this.buildIncrement(record.objectId))
+          var eles = document.querySelectorAll('#lc-sv #number');
+          if (eles.length > 0) {
+            eles.forEach((el,index,array)=>{
+              el.innerText = record.times + 1;
+              if (pvCtn) {
+                pvCtn.style.display = 'inline';
+              }
+            })
+          }
+        });
+        getterArr.push(pvGetter);
+      }
+
+      // 请求 UV 并自增
+      var uvCtn = document.querySelector('#lc-uv');
+      if (uvCtn || enableIncr) {
+        var uvGetter = this.getRecord(Counter, 'https://volantis.js.org' + '/#lc-uv', 'Visitors').then((record) => {
+          var vuv = this.validUV();
+          vuv && incrArr.push(this.buildIncrement(record.objectId))
+          var eles = document.querySelectorAll('#lc-uv #number');
+          if (eles.length > 0) {
+            eles.forEach((el,index,array)=>{
+              el.innerText = record.times + (vuv ? 1 : 0);
+              if (uvCtn) {
+                uvCtn.style.display = 'inline';
+              }
+            })
+          }
+        });
+        getterArr.push(uvGetter);
+      }
+
+      // 请求文章的浏览数，如果是当前页面就自增
+      var allPV = document.querySelectorAll('#lc-pv');
+      if (allPV.length > 0 || enableIncr) {
+        for (i = 0; i < allPV.length; i++) {
+          let pv = allPV[i];
+          let title = pv.getAttribute('data-title');
+          var url = 'https://volantis.js.org' + pv.getAttribute('data-path');
+          if (url) {
+            var viewGetter = this.getRecord(Counter, url, title).then((record) => {
+              // 是当前页面就自增
+              let curPath = window.location.pathname;
+              if (curPath.includes('index.html')) {
+                curPath = curPath.substring(0, curPath.lastIndexOf('index.html'));
+              }
+              if (pv.getAttribute('data-path') == curPath) {
+                incrArr.push(this.buildIncrement(record.objectId));
+              }
+              if (pv) {
+                var ele = pv.querySelector('#lc-pv #number');
+                if (ele) {
+                  if (pv.getAttribute('data-path') == curPath) {
+                    ele.innerText = (record.times || 0) + 1;
+                  } else {
+                    ele.innerText = record.times || 0;
+                  }
+                  pv.style.display = 'inline';
+                }
+              }
+            });
+            getterArr.push(viewGetter);
+          }
+        }
+      }
+
+      // 如果启动计数自增，批量发起自增请求
+      if (enableIncr) {
+        Promise.all(getterArr).then(() => {
+          incrArr.length > 0 && this.increment(Counter, incrArr);
+        })
+      }
+
+    },
+
+
+    fetchData(api_server) {
+      var Counter = (method, url, data) => {
+        return fetch(`${ api_server }/1.1${ url }`, {
+          method,
+          headers: {
+            'X-LC-Id': this.app_id,
+            'X-LC-Key': this.app_key,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(data)
+        });
+      };
+      this.addCount(Counter);
+    },
+
+    refreshCounter() {
+      var api_server = this.app_id.slice(-9) !== '-MdYXbMMI' ? this.custom_api_server : `https://${ this.app_id.slice(0, 8).toLowerCase() }.api.lncldglobal.com`;
+      if (api_server) {
+        this.fetchData(api_server);
+      } else {
+        fetch('https://app-router.leancloud.cn/2/route?appId=' + this.app_id)
+          .then(resp => resp.json())
+          .then(({api_server}) => {
+            this.fetchData('https://' + api_server);
+          });
+      }
+    }
+
+  };
+
+  LCCounter.refreshCounter();
+
+  document.addEventListener('pjax:complete', function () {
+    LCCounter.refreshCounter();
+  });
+</script>
+
+
+
+
+  <script>
+const rootElement = document.documentElement;
+const darkModeStorageKey = "user-color-scheme";
+const rootElementDarkModeAttributeName = "data-user-color-scheme";
+
+const setLS = (k, v) => {
+  try {
+    localStorage.setItem(k, v);
+  } catch (e) {
+    console.log(e.message);
+  }
+};
+
+const removeLS = (k) => {
+  try {
+    localStorage.removeItem(k);
+  } catch (e) {
+    console.log(e.message);
+  }
+};
+
+const getLS = (k) => {
+  try {
+    return localStorage.getItem(k);
+  } catch (e) {
+    console.log(e.message);
+    return null;
+  }
+};
+
+const getModeFromCSSMediaQuery = () => {
+  return window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light";
+};
+
+const resetRootDarkModeAttributeAndLS = () => {
+  rootElement.removeAttribute(rootElementDarkModeAttributeName);
+  removeLS(darkModeStorageKey);
+};
+
+const validColorModeKeys = {
+  dark: true,
+  light: true,
+};
+
+const applyCustomDarkModeSettings = (mode) => {
+  const currentSetting = mode || getLS(darkModeStorageKey);
+
+  if (currentSetting === getModeFromCSSMediaQuery()) {
+    resetRootDarkModeAttributeAndLS();
+  } else if (validColorModeKeys[currentSetting]) {
+    rootElement.setAttribute(rootElementDarkModeAttributeName, currentSetting);
+  } else {
+    resetRootDarkModeAttributeAndLS();
+  }
+};
+
+const invertDarkModeObj = {
+  dark: "light",
+  light: "dark",
+};
+
+/**
+ * get target mode
+ */
+const toggleCustomDarkMode = () => {
+  let currentSetting = getLS(darkModeStorageKey);
+
+  if (validColorModeKeys[currentSetting]) {
+    currentSetting = invertDarkModeObj[currentSetting];
+  } else if (currentSetting === null) {
+    currentSetting = invertDarkModeObj[getModeFromCSSMediaQuery()];
+  } else {
+    return;
+  }
+  setLS(darkModeStorageKey, currentSetting);
+  return currentSetting;
+};
+
+/**
+ * bind click event for toggle button
+ */
+function bindToggleButton() {
+	var btn=$("#wrapper .toggle-mode-btn");
+    btn.on('click',(e) => {
+      const mode = toggleCustomDarkMode();
+      applyCustomDarkModeSettings(mode);
+    });
+}
+$("#wrapper .darkbtn").parents(".header").addClass("toggle-mode-btn")
+applyCustomDarkModeSettings();
+document.addEventListener("DOMContentLoaded", bindToggleButton);
+document.addEventListener("pjax:success", bindToggleButton);
+var now = new Date();
+var hour = now.getHours();
+if (hour < 7 && hour >= 19) {
+	var mode = toggleCustomDarkMode();
+	if (mode === "dark") {
+	  applyCustomDarkModeSettings(mode);
+	}
+}
+</script>
+
+
+
+
+
+
+<script>
+function listennSidebarTOC() {
+  const navItems = document.querySelectorAll(".toc li");
+  if (!navItems.length) return;
+  const sections = [...navItems].map((element) => {
+    const link = element.querySelector(".toc-link");
+    const target = document.getElementById(
+      decodeURI(link.getAttribute("href")).replace("#", "")
+    );
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      window.scrollTo({
+		top: target.offsetTop + 100,
+		
+		behavior: "smooth"
+		
+	  });
+    });
+    return target;
+  });
+
+  function activateNavByIndex(target) {
+    if (target.classList.contains("active-current")) return;
+
+    document.querySelectorAll(".toc .active").forEach((element) => {
+      element.classList.remove("active", "active-current");
+    });
+    target.classList.add("active", "active-current");
+    let parent = target.parentNode;
+    while (!parent.matches(".toc")) {
+      if (parent.matches("li")) parent.classList.add("active");
+      parent = parent.parentNode;
+    }
+  }
+
+  function findIndex(entries) {
+    let index = 0;
+    let entry = entries[index];
+    if (entry.boundingClientRect.top > 0) {
+      index = sections.indexOf(entry.target);
+      return index === 0 ? 0 : index - 1;
+    }
+    for (; index < entries.length; index++) {
+      if (entries[index].boundingClientRect.top <= 0) {
+        entry = entries[index];
+      } else {
+        return sections.indexOf(entry.target);
+      }
+    }
+    return sections.indexOf(entry.target);
+  }
+
+  function createIntersectionObserver(marginTop) {
+    marginTop = Math.floor(marginTop + 10000);
+    let intersectionObserver = new IntersectionObserver(
+      (entries, observe) => {
+        let scrollHeight = document.documentElement.scrollHeight + 100;
+        if (scrollHeight > marginTop) {
+          observe.disconnect();
+          createIntersectionObserver(scrollHeight);
+          return;
+        }
+        let index = findIndex(entries);
+        activateNavByIndex(navItems[index]);
+      },
+      {
+        rootMargin: marginTop + "px 0px -100% 0px",
+        threshold: 0,
+      }
+    );
+    sections.forEach((element) => {
+      element && intersectionObserver.observe(element);
+    });
+  }
+  createIntersectionObserver(document.documentElement.scrollHeight);
+}
+
+document.addEventListener("DOMContentLoaded", listennSidebarTOC);
+document.addEventListener("pjax:success", listennSidebarTOC);
+</script>
+
+<!-- more -->
+
+
+
+
+    
+      
+
+
+<script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script>
+
+<!-- 样式位于：source/css/_third-party/pjaxanimate.styl -->
+
+<div class="pjax-animate">
+  
+    <script src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js"></script>
+    <div id="loading-bar-wrapper"><script>NProgress.configure({parent:"#loading-bar-wrapper",trickleSpeed: 100})</script></div>
+    <script>
+      window.ShowLoading = function() {
+        NProgress.start();
+      };
+      window.HideLoading = function() {
+        NProgress.done();
+      }
+    </script>
+  
+</div>
+
+<script>
+    var pjax;
+    document.addEventListener('DOMContentLoaded', function () {
+      pjax = new Pjax({
+        elements: 'a[href]:not([href^="#"]):not([href="javascript:void(0)"]):not([pjax-fancybox])',
+        selectors: [
+          "title",
+          "#l_cover",
+          "#pjax-container",
+          "#pjax-header-nav-list"
+        ],
+        cacheBust: false,   // url 地址追加时间戳，用以避免浏览器缓存
+        timeout: 5000
+      });
+    });
+
+    document.addEventListener('pjax:send', function (e) {
+      //window.stop(); // 相当于点击了浏览器的停止按钮
+
+      try {
+        var currentUrl = window.location.pathname;
+        var targetUrl = e.triggerElement.href;
+        var banUrl = [""];
+        if (banUrl[0] != "") {
+          banUrl.forEach(item => {
+            if(currentUrl.indexOf(item) != -1 || targetUrl.indexOf(item) != -1) {
+              window.location.href = targetUrl;
+            }
+          });
+        }
+      } catch (error) {}
+
+      window.subData = null; // 移除标题（用于一二级导航栏切换处）
+      if (typeof $.fancybox != "undefined") {
+        $.fancybox.close();    // 关闭弹窗
+      }
+      volantis.$switcher.removeClass('active'); // 关闭移动端激活的搜索框
+      volantis.$header.removeClass('z_search-open'); // 关闭移动端激活的搜索框
+      volantis.$wrapper.removeClass('sub'); // 跳转页面时关闭二级导航
+
+      // 解绑事件 避免重复监听
+      volantis.$topBtn.unbind('click');
+      $('.menu a').unbind('click');
+      $(window).unbind('resize');
+      $(window).unbind('scroll');
+      $(document).unbind('scroll');
+      $(document).unbind('click');
+      $('body').unbind('click');
+      window.ShowLoading();
+    });
+
+    document.addEventListener('pjax:complete', function () {
+      // 关于百度统计对 SPA 页面的处理：
+      // 方案一：百度统计>管理>单页应用设置中，打开开启按钮即可对SPA进行统计。 https://tongji.baidu.com/web/help/article?id=324
+      // 方案二：取消注释下列代码。 https://tongji.baidu.com/web/help/article?id=235
+      // 
+
+      // 关于谷歌统计对 SPA 页面的处理：
+      // 当应用以动态方式加载内容并更新地址栏中的网址时，也应该更新通过 gtag.js 存储的网页网址。
+      // https://developers.google.cn/analytics/devguides/collection/gtagjs/single-page-applications?hl=zh-cn
+      
+
+      $('.nav-main').find('.list-v').not('.menu-phone').removeAttr("style",""); // 移除小尾巴的移除
+      $('.menu-phone.list-v').removeAttr("style",""); // 移除小尾巴的移除
+      $('script[data-pjax], .pjax-reload script').each(function () {
+        $(this).parent().append($(this).remove());
+      });
+      try{
+          if (typeof $.fancybox == "undefined") {
+            SCload_fancybox();
+          } else {
+            pjax_fancybox();
+          }
+        
+        
+        
+        
+          if (typeof IssuesAPI == "undefined") {
+            loadIssuesJS();
+          }
+        
+        
+          pjax_initCopyCode();
+        
+        
+        
+        
+        
+          pjax_disqus();
+        
+      } catch (e) {
+        console.log(e);
+      }
+      window.HideLoading();
+    });
+
+    document.addEventListener('pjax:error', function (e) {
+      window.HideLoading();
+      window.location.href = e.triggerElement.href;
+    });
+</script>
+
+    
+  </div>
+</body>
+</html>
