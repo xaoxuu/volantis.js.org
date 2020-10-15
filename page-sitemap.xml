@@ -8,14 +8,14 @@
     </url>
     
     <url>
-        <loc>https://volantis.js.org/tag-plugins/radio/</loc>
+        <loc>https://volantis.js.org/tag-plugins/site/</loc>
         <lastmod>2020-10-14T06:49:58.503Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://volantis.js.org/tag-plugins/site/</loc>
+        <loc>https://volantis.js.org/tag-plugins/radio/</loc>
         <lastmod>2020-10-14T06:49:58.503Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -246,14 +246,14 @@
     </url>
     
     <url>
-        <loc>https://volantis.js.org/tag-plugins/checkbox/</loc>
+        <loc>https://volantis.js.org/tag-plugins/dropmenu/</loc>
         <lastmod>2020-10-14T06:49:58.467Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://volantis.js.org/tag-plugins/dropmenu/</loc>
+        <loc>https://volantis.js.org/tag-plugins/checkbox/</loc>
         <lastmod>2020-10-14T06:49:58.467Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
