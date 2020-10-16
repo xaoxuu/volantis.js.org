@@ -8,6 +8,13 @@
     </url>
     
     <url>
+        <loc>https://volantis.js.org/theme-settings/plugins/</loc>
+        <lastmod>2020-10-14T06:49:58.503Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://volantis.js.org/tag-plugins/site/</loc>
         <lastmod>2020-10-14T06:49:58.503Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -22,8 +29,15 @@
     </url>
     
     <url>
-        <loc>https://volantis.js.org/theme-settings/plugins/</loc>
-        <lastmod>2020-10-14T06:49:58.503Z</lastmod>
+        <loc>https://volantis.js.org/theme-settings/sidebar/</loc>
+        <lastmod>2020-10-14T06:49:58.502Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://volantis.js.org/theme-settings/style/</loc>
+        <lastmod>2020-10-14T06:49:58.502Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -36,15 +50,50 @@
     </url>
     
     <url>
-        <loc>https://volantis.js.org/theme-settings/sidebar/</loc>
-        <lastmod>2020-10-14T06:49:58.502Z</lastmod>
+        <loc>https://volantis.js.org/theme-settings/comments/</loc>
+        <lastmod>2020-10-14T06:49:58.501Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://volantis.js.org/theme-settings/style/</loc>
-        <lastmod>2020-10-14T06:49:58.502Z</lastmod>
+        <loc>https://volantis.js.org/theme-settings/footer/</loc>
+        <lastmod>2020-10-14T06:49:58.501Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://volantis.js.org/theme-settings/configuration/</loc>
+        <lastmod>2020-10-14T06:49:58.501Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://volantis.js.org/theme-settings/cover/</loc>
+        <lastmod>2020-10-14T06:49:58.501Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://volantis.js.org/theme-settings/layout/</loc>
+        <lastmod>2020-10-14T06:49:58.501Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://volantis.js.org/theme-settings/navbar/</loc>
+        <lastmod>2020-10-14T06:49:58.501Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://volantis.js.org/theme-settings/search/</loc>
+        <lastmod>2020-10-14T06:49:58.501Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -92,55 +141,6 @@
     </url>
     
     <url>
-        <loc>https://volantis.js.org/theme-settings/comments/</loc>
-        <lastmod>2020-10-14T06:49:58.501Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://volantis.js.org/theme-settings/configuration/</loc>
-        <lastmod>2020-10-14T06:49:58.501Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://volantis.js.org/theme-settings/cover/</loc>
-        <lastmod>2020-10-14T06:49:58.501Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://volantis.js.org/theme-settings/footer/</loc>
-        <lastmod>2020-10-14T06:49:58.501Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://volantis.js.org/theme-settings/layout/</loc>
-        <lastmod>2020-10-14T06:49:58.501Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://volantis.js.org/theme-settings/navbar/</loc>
-        <lastmod>2020-10-14T06:49:58.501Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://volantis.js.org/theme-settings/search/</loc>
-        <lastmod>2020-10-14T06:49:58.501Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
         <loc>https://volantis.js.org/tag-plugins/note/</loc>
         <lastmod>2020-10-14T06:49:58.500Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -155,14 +155,14 @@
     </url>
     
     <url>
-        <loc>https://volantis.js.org/page-settings/body/</loc>
+        <loc>https://volantis.js.org/page-settings/front-matter/</loc>
         <lastmod>2020-10-14T06:49:58.468Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://volantis.js.org/page-settings/front-matter/</loc>
+        <loc>https://volantis.js.org/page-settings/body/</loc>
         <lastmod>2020-10-14T06:49:58.468Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -246,14 +246,14 @@
     </url>
     
     <url>
-        <loc>https://volantis.js.org/tag-plugins/dropmenu/</loc>
+        <loc>https://volantis.js.org/tag-plugins/checkbox/</loc>
         <lastmod>2020-10-14T06:49:58.467Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://volantis.js.org/tag-plugins/checkbox/</loc>
+        <loc>https://volantis.js.org/tag-plugins/dropmenu/</loc>
         <lastmod>2020-10-14T06:49:58.467Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
