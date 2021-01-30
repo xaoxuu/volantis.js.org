@@ -99,9 +99,9 @@
     
     
     <entry>
-      <title>静态博客使用 Issues API 发布动态、友链、书签</title>
-      <link href="blogs/2020-08-28-issue-api/"/>
-      <url>blogs/2020-08-28-issue-api/</url>
+      <title>给 Volantis 主题调用 Valine 最新评论</title>
+      <link href="blogs/2020-09-03-latest-comments/"/>
+      <url>blogs/2020-09-03-latest-comments/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -118,9 +118,9 @@
     
     
     <entry>
-      <title>给 Volantis 主题调用 Valine 最新评论</title>
-      <link href="blogs/2020-09-03-latest-comments/"/>
-      <url>blogs/2020-09-03-latest-comments/</url>
+      <title>静态博客使用 Issues API 发布动态、友链、书签</title>
+      <link href="blogs/2020-08-28-issue-api/"/>
+      <url>blogs/2020-08-28-issue-api/</url>
       
         <content type="html"><![CDATA[]]></content>
       
