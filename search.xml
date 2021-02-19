@@ -23,6 +23,25 @@
     
     
     <entry>
+      <title>为 hexo 博客支持 sweetalert 弹窗</title>
+      <link href="blogs/2021-2-19-hexo-supports-sweetalert/"/>
+      <url>blogs/2021-2-19-hexo-supports-sweetalert/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 进阶玩法 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>哔哔！换个姿势在静态博客上发短博文（volantis适配版）</title>
       <link href="blogs/2020-10-09-bb-on-volantis/"/>
       <url>blogs/2020-10-09-bb-on-volantis/</url>
