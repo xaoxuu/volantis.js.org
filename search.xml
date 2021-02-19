@@ -4,9 +4,9 @@
   
     
     <entry>
-      <title>通过CoolPush实时推送hexo评论到QQ</title>
-      <link href="blogs/2020-12-17-comments-push/"/>
-      <url>blogs/2020-12-17-comments-push/</url>
+      <title>为 hexo 博客支持 sweetalert 弹窗</title>
+      <link href="blogs/2021-2-19-hexo-supports-sweetalert/"/>
+      <url>blogs/2021-2-19-hexo-supports-sweetalert/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -23,9 +23,9 @@
     
     
     <entry>
-      <title>为 hexo 博客支持 sweetalert 弹窗</title>
-      <link href="blogs/2021-2-19-hexo-supports-sweetalert/"/>
-      <url>blogs/2021-2-19-hexo-supports-sweetalert/</url>
+      <title>通过CoolPush实时推送hexo评论到QQ</title>
+      <link href="blogs/2020-12-17-comments-push/"/>
+      <url>blogs/2020-12-17-comments-push/</url>
       
         <content type="html"><![CDATA[]]></content>
       
