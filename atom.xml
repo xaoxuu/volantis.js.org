@@ -168,7 +168,7 @@
     <link href="https://volantis.js.org/blogs/2020-07-03-valine/"/>
     <id>https://volantis.js.org/blogs/2020-07-03-valine/</id>
     <published>2020-07-03T00:00:00.000Z</published>
-    <updated>2021-02-21T12:04:42.980Z</updated>
+    <updated>2021-02-21T12:16:39.738Z</updated>
     
     <content type="html"><![CDATA[<p>Valine 评论由于可以匿名，发言成本低、质量低，使用 app 可以方便的删除垃圾评论。</p><a id="more"></a><h2 id="操作演示"><a href="#操作演示" class="headerlink" title="操作演示"></a>操作演示</h2><div class="videos center" col='3'><div class="video"><video controls preload><source src='https://github.com/volantis-x/volantis-docs/releases/download/assets/valine-ios.mov' type='video/mp4'>Your browser does not support the video tag.</video></div></div><blockquote><p>App 只支持数据存储于 LeanCloud 的评论系统。</p></blockquote><p>App 登录前需要配置 AppID 和 AppKey，由于字符比较长，输入不方便，所以支持 URL Scheme 配置。将 URL 生成一个二维码，然后用手机扫码就可以打开 App 并自动配置好。</p><p>格式为：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">valine:&#x2F;&#x2F;cfg&#x2F;id&#x3D;7yIoRlSmfX09vQCERsuWzFnx-MdYXbMMI&amp;key&#x3D;3zCL5GFePTUjwbqLop44QFbr&amp;alias&#x3D;测试项目</span><br></pre></td></tr></table></figure><p>也可以把管理员用户的账号和密码配置上，扫码直接登录，但是注意不要泄露出去：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">valine:&#x2F;&#x2F;cfg&#x2F;id&#x3D;7yIoRlSmfX09vQCERsuWzFnx-MdYXbMMI&amp;key&#x3D;3zCL5GFePTUjwbqLop44QFbr&amp;alias&#x3D;测试项目&amp;user&#x3D;me@xaoxuu.com&amp;psw&#x3D;q</span><br></pre></td></tr></table></figure><p>注意：这个管理员用户并不是 LeanCloud 的账号，而是当前 Valine 数据库中的 <code>_User</code> 表中的一个用户，可以在 App 中注册，然后在 LeanCloud 上把注册的用户设置为管理员。</p><p>设置管理员的方法：在 <code>_Role</code> 表中新建一个 <code>admin</code> 角色，然后在 <code>admin</code> 角色的 <code>users</code> 列中点击 <code>Relations</code> 把自己刚注册的用户添加进去，这个用户就有了修改和删除评论数据的权限。</p><h2 id="App-测试版地址"><a href="#App-测试版地址" class="headerlink" title="App 测试版地址"></a>App 测试版地址</h2><div class="btns circle center grid4">            <a href='https://testflight.apple.com/join/zA4MOzDd'>  <i class='fab fa-apple'></i>  <b>Valine for iOS</b>  <img src='https://i.loli.net/2020/07/04/cGmgsHhwlt4vYyK.png'></a><a href='https://github.com/yinhanlei/Valine-Android/releases/'>  <i class='fab fa-android'></i>  <b>Valine for Android</b>  <img src='https://i.loli.net/2020/07/21/HN2UhFIys6gKXct.png'></a>          </div>]]></content>
     
@@ -204,7 +204,7 @@
     <link href="https://volantis.js.org/news/2020-04-04/"/>
     <id>https://volantis.js.org/news/2020-04-04/</id>
     <published>2020-04-04T00:00:00.000Z</published>
-    <updated>2021-02-21T12:04:42.984Z</updated>
+    <updated>2021-02-21T12:16:39.738Z</updated>
     
     <content type="html"><![CDATA[<p>由于主题目前仍处于青少年阶段，更新迭代速度比较快，所以不会保留旧版本的文档，如果需要查看旧版本的文档，请下载主题文档的源码，回退到旧版本，本地运行查看。</p><ul><li>计划 <code>2.x</code> 的最后一个版本的文档会保留至 <code>5.0</code> 发布时，即最终会同时维护3个大版本的文档。</li><li>当主题稳定后会提供英文文档。</li></ul><a id="more"></a>]]></content>
     
@@ -227,7 +227,7 @@
     <link href="https://volantis.js.org/news/2020-03-10-2.0/"/>
     <id>https://volantis.js.org/news/2020-03-10-2.0/</id>
     <published>2020-03-10T00:00:00.000Z</published>
-    <updated>2021-02-21T12:04:42.984Z</updated>
+    <updated>2021-02-21T12:16:39.738Z</updated>
     
     <content type="html"><![CDATA[<p>本次更新内容非常多，主要升级了导航栏、使用新的语言重写了全部样式。旧版本 Volantis 用户，请您卸载掉旧的样式渲染插件，并安装新的：</p><ol><li><p>卸载 <code>less</code></p><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-renderer-less --save</span><br></pre></td></tr></table></figure></li><li><p>安装 <code>stylus</code></p><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">npm install hexo-renderer-stylus --save</span><br></pre></td></tr></table></figure></li></ol><a id="more"></a><h2 id="新功能"><a href="#新功能" class="headerlink" title="新功能"></a>新功能</h2><h3 id="导航栏"><a href="#导航栏" class="headerlink" title="导航栏"></a>导航栏</h3><p>导航栏获得了史诗级的增强，可以设置<u><strong>N级</strong></u>子菜单。考虑到实用性，不太建议使用过多或者过深的菜单（超出屏幕的部分无法被看到）。</p><h3 id="样式设置"><a href="#样式设置" class="headerlink" title="样式设置"></a>样式设置</h3><p>现在可以在主题配置文件中设置更多的样式：</p><ul><li>最大布局宽度</li><li>导航栏高度、特效（阴影、毛玻璃、鼠标hover时浮起）</li><li>卡片特效（阴影、毛玻璃、鼠标hover时浮起）</li><li>代码框是否显示语言</li><li>标题和正文文本布局（靠左、靠右、居中）</li><li>正文字体</li><li>代码字体</li><li>各部分颜色</li></ul><h3 id="封面"><a href="#封面" class="headerlink" title="封面"></a>封面</h3><p>封面可以在主题配置文件中设置在首页、归档页面、其它页面默认是否显示。<br>封面中可以同时显示logo图片、标题、副标题了。</p><h3 id="小部件"><a href="#小部件" class="headerlink" title="小部件"></a>小部件</h3><p>grid小部件可以设置 <code>fixed: true</code> 来固定网格宽度（适合文字长短不一的场景）。</p><h3 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h3><p>可以设置「评论」的标题和副标题。<br>可以创建多种颜色的折叠框。<br>友链增加分组描述。</p><h2 id="功能调整与优化"><a href="#功能调整与优化" class="headerlink" title="功能调整与优化"></a>功能调整与优化</h2><h3 id="样式渲染器"><a href="#样式渲染器" class="headerlink" title="样式渲染器"></a>样式渲染器</h3><p>使用 <code>stylus</code> 重写了所有样式，无需安装<code>less</code>插件了。相较于<code>1.7.4</code>，<code>css</code>文件体积缩小了<u>19.75%</u>。</p><h3 id="主题配置文件"><a href="#主题配置文件" class="headerlink" title="主题配置文件"></a>主题配置文件</h3><ul><li>主题配置文件经过了较大改动，使得层级结构更加清晰。</li><li>优化了二维码（微信）分享的使用体验</li></ul>]]></content>
     
@@ -256,7 +256,7 @@
     <link href="https://volantis.js.org/news/2020-03-06-2.0-beta/"/>
     <id>https://volantis.js.org/news/2020-03-06-2.0-beta/</id>
     <published>2020-03-06T19:43:00.000Z</published>
-    <updated>2021-02-21T12:04:42.984Z</updated>
+    <updated>2021-02-21T12:16:39.738Z</updated>
     
     <content type="html"><![CDATA[<details open><summary> Beta6 </summary>              <div class='content'>              <ul><li><input checked="" disabled="" type="checkbox"> 导航栏N级菜单支持分割线和小标题，详见我的个人博客。</li></ul>              </div>            </details><a id="more"></a><details ><summary> Beta5 </summary>              <div class='content'>              <ul><li><input checked="" disabled="" type="checkbox"> 导航栏<s>二级</s><u>N级</u>菜单</li><li><input checked="" disabled="" type="checkbox"> 支持微信二维码分享（需安装二维码生成插件）</li></ul>              </div>            </details><details ><summary> Beta4 </summary>              <div class='content'>              <ul><li><input checked="" disabled="" type="checkbox"> 优化样式</li><li><input checked="" disabled="" type="checkbox"> 更多样式可以在主题配置文件中自定义</li><li><input checked="" disabled="" type="checkbox"> 调整主题配置文件</li></ul>              </div>            </details><details ><summary> Beta3 </summary>              <div class='content'>              <ul><li><input checked="" disabled="" type="checkbox"> 优化样式</li><li><input checked="" disabled="" type="checkbox"> grid 部件新增 <code>fixed: true</code> 参数，用于固定宽度。</li></ul>              </div>            </details><details ><summary> Beta2 </summary>              <div class='content'>              <ul><li><input checked="" disabled="" type="checkbox"> 可以创建多种颜色的折叠框</li><li><input checked="" disabled="" type="checkbox"> 友链增加分组描述</li></ul>              </div>            </details><details ><summary> Beta1 </summary>              <div class='content'>              <ul><li><input checked="" disabled="" type="checkbox"> 新版本使用 <code>stylus</code> 完全重写了样式。</li><li><input checked="" disabled="" type="checkbox"> 可在主题配置文件中修改配色、标题等多种样式（需要关闭CDN）。<br>已知的BUG有：</li><li><input disabled="" type="checkbox"> Container左侧的图标（图片）始终显示不出来，原因未知。</li></ul><figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">&gt;<span class="selector-tag">div</span>.info</span><br><span class="line">  <span class="attribute">background-color</span>: alpha(<span class="variable">$color</span>-mac-cyan, <span class="number">20%</span>)</span><br><span class="line">  <span class="attribute">border-left</span>: <span class="variable">$borderradius</span>-codeblock solid <span class="variable">$color</span>-mac-cyan</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="variable">$borderradius</span>-codeblock</span><br><span class="line">  &gt;:before</span><br><span class="line">    ...(省略无关代码)</span><br><span class="line">    <span class="attribute">background-size</span>: <span class="number">16px</span> <span class="number">16px</span></span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">4px</span> <span class="number">4px</span></span><br><span class="line">    <span class="attribute">background-repeat</span>: no-repeat</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="variable">$color</span>-mac-cyan</span><br><span class="line">    <span class="attribute">background-image</span>: url(<span class="string">&quot;data:image/svg+xmlbase64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHdpZHRoPSIxNzkyIiBoZWlnaHQ9IjE3OTIiIHZpZXdCb3g9IjAgMCAxNzkyIDE3OTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEyMTYgMTM0NHYxMjhxMCAyNi0xOSA0NXQtNDUgMTloLTUxMnEtMjYgMC00NS0xOXQtMTktNDV2LTEyOHEwLTI2IDE5LTQ1dDQ1LTE5aDY0di0zODRoLTY0cS0yNiAwLTQ1LTE5dC0xOS00NXYtMTI4cTAtMjYgMTktNDV0NDUtMTloMzg0cTI2IDAgNDUgMTl0MTkgNDV2NTc2aDY0cTI2IDAgNDUgMTl0MTkgNDV6bS0xMjgtMTE1MnYxOTJxMCAyNi0xOSA0NXQtNDUgMTloLTI1NnEtMjYgMC00NS0xOXQtMTktNDV2LTE5MnEwLTI2IDE5LTQ1dDQ1LTE5aDI1NnEyNiAwIDQ1IDE5dDE5IDQ1eiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==&quot;</span>)</span><br></pre></td></tr></table></figure><blockquote><p>我试过把url里面的内容换成网络图片的URL是可以正常显示的。<br>源码在： <code>themes/volantis/source/css/_third-party/container.styl</code></p></blockquote>              </div>            </details>]]></content>
     
@@ -279,7 +279,7 @@
     <link href="https://volantis.js.org/test/2020-03-06-test-url/"/>
     <id>https://volantis.js.org/test/2020-03-06-test-url/</id>
     <published>2020-03-06T00:00:00.000Z</published>
-    <updated>2021-02-21T12:04:42.984Z</updated>
+    <updated>2021-02-21T12:16:39.738Z</updated>
     
     <content type="html"><![CDATA[<p>5、测试Tomcat是否配置成功：打开浏览器，输入在地址栏中输入： <a href="http://localhost:8080/" target="_blank" rel="noopener external nofollow noreferrer">http://localhost:8080</a> 的运行结果如下图即为即为配置成功！（因为Tomcat已经在运行再次打开会报错）</p><p>相关 Issue： <a href="https://github.com/volantis-x/hexo-theme-volantis/issues/164" target="_blank" rel="noopener external nofollow noreferrer">#164</a></p><div class="note success"><p>结论：存在这篇文章的情况下能够成功 deploy ，说明这不是主题的 BUG。</p></div><div class="note "><p><code>markdwon</code> 解析插件为 <code>hexo-renderer-marked</code> 时此插件默认会自动识别 URL ，且原文链接前后没有空格，所以链接前后增加一个空格或者在根目录配置文件中设置 <code>autolink: false</code> 都可以避免 deploy 报错。<br>插件：<a href="https://github.com/hexojs/hexo-renderer-marked" target="_blank" rel="noopener external nofollow noreferrer">hexo-renderer-marked</a></p></div>]]></content>
     
@@ -299,7 +299,7 @@
     <link href="https://volantis.js.org/news/2020-02-25/"/>
     <id>https://volantis.js.org/news/2020-02-25/</id>
     <published>2020-02-25T00:00:00.000Z</published>
-    <updated>2021-02-21T12:04:42.984Z</updated>
+    <updated>2021-02-21T12:16:39.738Z</updated>
     
     <content type="html"><![CDATA[<p>由于功能未完全兼容，如果想率先使用，尽量不要改主题配置文件。</p><ul><li>不能使用封面</li><li>mathjax</li><li>有折叠框的页面，折叠框打开之后目录高亮位置不对应</li><li>很多未知问题</li></ul><blockquote><p>感谢 <a href="https://inkss.cn/" target="_blank" rel="noopener external nofollow noreferrer">@inkss</a> 发布的这篇教程 <a href="https://inkss.cn/blog/80b5f235/" target="_blank" rel="noopener external nofollow noreferrer">《Hexo 博客部署 Pjax 局部刷新》</a><br>当所有兼容性问题解决或妥协之后，pjax 分支会合并入 master。</p></blockquote>]]></content>
     
@@ -328,7 +328,7 @@
     <link href="https://volantis.js.org/news/2020-02-22/"/>
     <id>https://volantis.js.org/news/2020-02-22/</id>
     <published>2020-02-22T00:00:00.000Z</published>
-    <updated>2021-02-21T12:04:42.984Z</updated>
+    <updated>2021-02-21T12:16:39.738Z</updated>
     
     <content type="html"><![CDATA[<p>主题原名「Material X」,最初由「Material-Flow」改编，现已完全没有材质化设计的影子了。风格偏向简约风技术类博客，最大的特点是自由。现更名为「Volantis」，取自权力的游戏地名。</p>]]></content>
     
@@ -351,7 +351,7 @@
     <link href="https://volantis.js.org/news/2020-02-21/"/>
     <id>https://volantis.js.org/news/2020-02-21/</id>
     <published>2020-02-21T00:00:00.000Z</published>
-    <updated>2021-02-21T12:04:42.984Z</updated>
+    <updated>2021-02-21T12:16:39.738Z</updated>
     
     <content type="html"><![CDATA[<p>主题经过几年迭代，现已高度模块化和可定制化，功能相对完善，适合用作文档。原来的 <a href="https://github.com/xaoxuu/hexo-theme-vuex" target="_blank" rel="noopener external nofollow noreferrer">文档主题</a> 将不再维护和更新。</p><p>现在使用的文档页面源码是： <span class='btn'><a class="button" href='https://github.com/volantis-x/volantis-docs' title='volantis-docs'>volantis-docs</a></span></p>]]></content>
     
@@ -373,7 +373,7 @@
     <link href="https://volantis.js.org/news/2020-02-20/"/>
     <id>https://volantis.js.org/news/2020-02-20/</id>
     <published>2020-02-20T00:00:00.000Z</published>
-    <updated>2021-02-21T12:04:42.984Z</updated>
+    <updated>2021-02-21T12:16:39.738Z</updated>
     
     <content type="html"><![CDATA[<h4 id="使用-GitHub-Issue"><a href="#使用-GitHub-Issue" class="headerlink" title="使用 GitHub Issue"></a>使用 GitHub Issue</h4><p>由于 Valine 匿名评论不适合追踪和解决问题，因此决定暂时关闭评论区。<br>为了精准高效解决问题，请前往 <span class='btn'><a class="button" href='https://github.com/volantis-x/hexo-theme-volantis/issues/' title='GitHub Issue'>GitHub Issue</a></span></p><h4 id="遇到问题怎么办"><a href="#遇到问题怎么办" class="headerlink" title="遇到问题怎么办"></a>遇到问题怎么办</h4><ol><li>确定已经查阅文档找不到相关内容。</li><li>前往「常见问题」页面，查看是否有解决方案。</li><li>访问在线示例，查看是否具有相同第问题。</li><li><ol><li>如果在线示例表示正常，则说明自己配置有误，检查开发环境、主题配置是否正确。如果检查不出问题，提Issue询问。</li></ol></li><li><ol start="2"><li>如果在线示例也存在相同问题，则说明存在BUG，请提Issue反馈。</li></ol></li><li>如果在线示例没有相关内容，下载示例博客源码，修改运行本地预览，进行第3步判断操作。</li></ol>]]></content>
     
@@ -395,7 +395,7 @@
     <link href="https://volantis.js.org/news/2020-02-19/"/>
     <id>https://volantis.js.org/news/2020-02-19/</id>
     <published>2020-02-19T00:00:00.000Z</published>
-    <updated>2021-02-21T12:04:42.984Z</updated>
+    <updated>2021-02-21T12:16:39.738Z</updated>
     
     <content type="html"><![CDATA[<p class='p red bold'>主版本号.子版本号.修订版本号</p><p>主题从2017年至今，已经经历了相当多的大版本迭代和数不尽的小版本更新，但是版本号的更新一直没有遵循规范。从下次更新开始，将遵循下述的规范：</p><ul><li><strong>主版本号</strong>： 较大改动、框架调整或重构</li><li><strong>子版本号</strong>： 较小或局部的功能性更新</li><li><strong>修订版本号</strong>： 修复BUG或无关紧要的细节调整</li></ul>]]></content>
     
