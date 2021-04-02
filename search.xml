@@ -4,6 +4,82 @@
   
     
     <entry>
+      <title>为volantis添加hls.js以在Chrome上播放m3u8视频</title>
+      <link href="blogs/2021-4-1-hls/"/>
+      <url>blogs/2021-4-1-hls/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 进阶玩法 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>volantis主题修改代码高亮样式</title>
+      <link href="blogs/2021-3-31-highlightjs/"/>
+      <url>blogs/2021-3-31-highlightjs/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 进阶玩法 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>为volantis主题添加图片轮播和热门文章</title>
+      <link href="blogs/2021-2-30-slider/"/>
+      <url>blogs/2021-2-30-slider/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 进阶玩法 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>使用volantis更优雅得展示截图/录屏</title>
+      <link href="blogs/2021-3-7-framei8/"/>
+      <url>blogs/2021-3-7-framei8/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 进阶玩法 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>为 hexo 博客支持 sweetalert 弹窗</title>
       <link href="blogs/2021-2-19-hexo-supports-sweetalert/"/>
       <url>blogs/2021-2-19-hexo-supports-sweetalert/</url>
@@ -118,9 +194,9 @@
     
     
     <entry>
-      <title>静态博客使用 Issues API 发布动态、友链、书签</title>
-      <link href="blogs/2020-08-28-issue-api/"/>
-      <url>blogs/2020-08-28-issue-api/</url>
+      <title>给 Volantis 主题调用 Valine 最新评论</title>
+      <link href="blogs/2020-09-03-latest-comments/"/>
+      <url>blogs/2020-09-03-latest-comments/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -137,9 +213,9 @@
     
     
     <entry>
-      <title>给 Volantis 主题调用 Valine 最新评论</title>
-      <link href="blogs/2020-09-03-latest-comments/"/>
-      <url>blogs/2020-09-03-latest-comments/</url>
+      <title>静态博客使用 Issues API 发布动态、友链、书签</title>
+      <link href="blogs/2020-08-28-issue-api/"/>
+      <url>blogs/2020-08-28-issue-api/</url>
       
         <content type="html"><![CDATA[]]></content>
       
