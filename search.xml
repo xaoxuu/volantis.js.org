@@ -4,11 +4,30 @@
   
     
     <entry>
+      <title>为volantis添加瀑布流相册</title>
+      <link href="blogs/2021-4-14-photos/"/>
+      <url>blogs/2021-4-14-photos/</url>
+      
+        <content type="html"><![CDATA[<p>经过折腾，目前相册功能可用了，就是还不支持分类和懒加载，等后续完善吧。</p><span id="more"></span>]]></content>
+      
+      
+      <categories>
+          
+          <category> 进阶玩法 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>为volantis添加hls.js以在Chrome上播放m3u8视频</title>
       <link href="blogs/2021-4-1-hls/"/>
       <url>blogs/2021-4-1-hls/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>在文章中插入m3u8视频的时候，由于Chrome等浏览器原生播放不了这种格式，所以需要添加hls.js等让其支持播放，如果你也遇到了这样的问题就来看看吧。</p><span id="more"></span>]]></content>
       
       
       <categories>
@@ -27,7 +46,7 @@
       <link href="blogs/2021-3-31-highlightjs/"/>
       <url>blogs/2021-3-31-highlightjs/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>在使用主题内的highlightjs的时候，你是否也遇到了它不换行、没有行号等问题？点进来看看吧。</p><span id="more"></span>]]></content>
       
       
       <categories>
@@ -46,7 +65,7 @@
       <link href="blogs/2021-2-30-slider/"/>
       <url>blogs/2021-2-30-slider/</url>
       
-        <content type="html"><![CDATA[<p>这篇教程是基于heson大佬的这篇 <a href="https://www.heson10.com/posts/19736.html" target="_blank" rel="noopener external nofollow noreferrer">给Hexo Volantis主题添加图片轮播功能</a> 创作的，由我将新的轮播模板迁移至主题内，由inkss大佬完善。在这感谢两位大佬，如果你也需要轮播插件，就进来看看吧。</p><span id="more"></span><p><a href="https://goopher.tk/posts/1.html" target="_blank" rel="noopener external nofollow noreferrer">前往原站阅读</a></p>]]></content>
+        <content type="html"><![CDATA[<p>这篇教程是基于heson大佬的这篇 <a href="https://www.heson10.com/posts/19736.html" target="_blank" rel="noopener external nofollow noreferrer">给Hexo Volantis主题添加图片轮播功能</a> 创作的，由我将新的轮播模板迁移至主题内，由inkss大佬完善。在这感谢两位大佬，如果你也需要轮播插件，就进来看看吧。</p><span id="more"></span>]]></content>
       
       
       <categories>
@@ -65,7 +84,7 @@
       <link href="blogs/2021-3-7-framei8/"/>
       <url>blogs/2021-3-7-framei8/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>我在主题文档中看到了frame标签，可以更高大上得展示我们的截图/录屏等。可是目前主题内仅内置了一个iPhone11的框架，想要使用其他的框架就得对齐修改，我经过折腾基本实现了，写下了这篇文章。</p><span id="more"></span>]]></content>
       
       
       <categories>
@@ -194,9 +213,9 @@
     
     
     <entry>
-      <title>给 Volantis 主题调用 Valine 最新评论</title>
-      <link href="blogs/2020-09-03-latest-comments/"/>
-      <url>blogs/2020-09-03-latest-comments/</url>
+      <title>静态博客使用 Issues API 发布动态、友链、书签</title>
+      <link href="blogs/2020-08-28-issue-api/"/>
+      <url>blogs/2020-08-28-issue-api/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -213,9 +232,9 @@
     
     
     <entry>
-      <title>静态博客使用 Issues API 发布动态、友链、书签</title>
-      <link href="blogs/2020-08-28-issue-api/"/>
-      <url>blogs/2020-08-28-issue-api/</url>
+      <title>给 Volantis 主题调用 Valine 最新评论</title>
+      <link href="blogs/2020-09-03-latest-comments/"/>
+      <url>blogs/2020-09-03-latest-comments/</url>
       
         <content type="html"><![CDATA[]]></content>
       
