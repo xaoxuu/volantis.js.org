@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>使用 pandoc 正确渲染多行 MathJax 公式</title>
+      <link href="blogs/2021-4-18-pandoc-renderer/"/>
+      <url>blogs/2021-4-18-pandoc-renderer/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 开发心得 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>为volantis添加瀑布流相册</title>
       <link href="blogs/2021-4-14-photos/"/>
       <url>blogs/2021-4-14-photos/</url>
