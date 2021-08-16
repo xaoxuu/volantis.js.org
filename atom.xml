@@ -72,7 +72,7 @@
     <link href="https://volantis.js.org/blogs/2021-4-14-photos/"/>
     <id>https://volantis.js.org/blogs/2021-4-14-photos/</id>
     <published>2021-04-14T00:00:00.000Z</published>
-    <updated>2021-08-15T07:51:19.146Z</updated>
+    <updated>2021-04-19T13:37:31.000Z</updated>
     
     <content type="html"><![CDATA[<p>经过折腾，目前相册功能可用了，就是还不支持分类和懒加载，等后续完善吧。</p><span id="more"></span>]]></content>
     
@@ -91,7 +91,7 @@
     <link href="https://volantis.js.org/blogs/2021-4-1-hls/"/>
     <id>https://volantis.js.org/blogs/2021-4-1-hls/</id>
     <published>2021-04-01T00:00:00.000Z</published>
-    <updated>2021-08-15T07:51:19.146Z</updated>
+    <updated>2021-04-19T13:37:31.000Z</updated>
     
     <content type="html"><![CDATA[<p>在文章中插入m3u8视频的时候，由于Chrome等浏览器原生播放不了这种格式，所以需要添加hls.js等让其支持播放，如果你也遇到了这样的问题就来看看吧。</p><span id="more"></span>]]></content>
     
@@ -110,7 +110,7 @@
     <link href="https://volantis.js.org/blogs/2021-3-31-highlightjs/"/>
     <id>https://volantis.js.org/blogs/2021-3-31-highlightjs/</id>
     <published>2021-03-31T00:00:00.000Z</published>
-    <updated>2021-08-15T07:51:19.146Z</updated>
+    <updated>2021-04-19T13:37:31.000Z</updated>
     
     <content type="html"><![CDATA[<p>在使用主题内的highlightjs的时候，你是否也遇到了它不换行、没有行号等问题？点进来看看吧。</p><span id="more"></span>]]></content>
     
@@ -129,7 +129,7 @@
     <link href="https://volantis.js.org/blogs/2021-2-30-slider/"/>
     <id>https://volantis.js.org/blogs/2021-2-30-slider/</id>
     <published>2021-03-30T00:00:00.000Z</published>
-    <updated>2021-08-15T07:51:19.146Z</updated>
+    <updated>2021-04-19T13:37:31.000Z</updated>
     
     <content type="html"><![CDATA[<p>这篇教程是基于heson大佬的这篇 <a href="https://www.heson10.com/posts/19736.html" target="_blank" rel="noopener external nofollow noreferrer">给Hexo Volantis主题添加图片轮播功能</a> 创作的，由我将新的轮播模板迁移至主题内，由inkss大佬完善。在这感谢两位大佬，如果你也需要轮播插件，就进来看看吧。</p><span id="more"></span>]]></content>
     
@@ -148,7 +148,7 @@
     <link href="https://volantis.js.org/blogs/2021-3-7-framei8/"/>
     <id>https://volantis.js.org/blogs/2021-3-7-framei8/</id>
     <published>2021-03-07T00:00:00.000Z</published>
-    <updated>2021-08-15T07:51:19.146Z</updated>
+    <updated>2021-04-19T13:37:31.000Z</updated>
     
     <content type="html"><![CDATA[<p>我在主题文档中看到了frame标签，可以更高大上得展示我们的截图/录屏等。可是目前主题内仅内置了一个iPhone11的框架，想要使用其他的框架就得对齐修改，我经过折腾基本实现了，写下了这篇文章。</p><span id="more"></span>]]></content>
     
@@ -314,7 +314,7 @@
     <link href="https://volantis.js.org/blogs/2020-07-03-valine/"/>
     <id>https://volantis.js.org/blogs/2020-07-03-valine/</id>
     <published>2020-07-03T00:00:00.000Z</published>
-    <updated>2021-08-15T07:51:19.146Z</updated>
+    <updated>2020-09-04T04:40:18.000Z</updated>
     
     <content type="html"><![CDATA[<p>Valine 评论由于可以匿名，发言成本低、质量低，使用 app 可以方便的删除垃圾评论。</p><span id="more"></span><h2 id="操作演示"><a href="#操作演示" class="headerlink" title="操作演示"></a>操作演示</h2><div class="videos center" col='3'><div class="video"><video controls preload><source src='https://github.com/volantis-x/volantis-docs/releases/download/assets/valine-ios.mov' type='video/mp4'>Your browser does not support the video tag.</video></div></div><blockquote><p>App 只支持数据存储于 LeanCloud 的评论系统。</p></blockquote><p>App 登录前需要配置 AppID 和 AppKey，由于字符比较长，输入不方便，所以支持 URL Scheme 配置。将 URL 生成一个二维码，然后用手机扫码就可以打开 App 并自动配置好。</p><p>格式为：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">valine:&#x2F;&#x2F;cfg&#x2F;id&#x3D;7yIoRlSmfX09vQCERsuWzFnx-MdYXbMMI&amp;key&#x3D;3zCL5GFePTUjwbqLop44QFbr&amp;alias&#x3D;测试项目</span><br></pre></td></tr></table></figure><p>也可以把管理员用户的账号和密码配置上，扫码直接登录，但是注意不要泄露出去：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">valine:&#x2F;&#x2F;cfg&#x2F;id&#x3D;7yIoRlSmfX09vQCERsuWzFnx-MdYXbMMI&amp;key&#x3D;3zCL5GFePTUjwbqLop44QFbr&amp;alias&#x3D;测试项目&amp;user&#x3D;me@xaoxuu.com&amp;psw&#x3D;q</span><br></pre></td></tr></table></figure><p>注意：这个管理员用户并不是 LeanCloud 的账号，而是当前 Valine 数据库中的 <code>_User</code> 表中的一个用户，可以在 App 中注册，然后在 LeanCloud 上把注册的用户设置为管理员。</p><p>设置管理员的方法：在 <code>_Role</code> 表中新建一个 <code>admin</code> 角色，然后在 <code>admin</code> 角色的 <code>users</code> 列中点击 <code>Relations</code> 把自己刚注册的用户添加进去，这个用户就有了修改和删除评论数据的权限。</p><h2 id="App-测试版地址"><a href="#App-测试版地址" class="headerlink" title="App 测试版地址"></a>App 测试版地址</h2><div class="btns circle center grid4">            <a href='https://testflight.apple.com/join/zA4MOzDd'>  <i class='fab fa-apple'></i>  <b>Valine for iOS</b>  <img src='https://i.loli.net/2020/07/04/cGmgsHhwlt4vYyK.png'></a><a href='https://github.com/yinhanlei/Valine-Android/releases/'>  <i class='fab fa-android'></i>  <b>Valine for Android</b>  <img src='https://i.loli.net/2020/07/21/HN2UhFIys6gKXct.png'></a>          </div>]]></content>
     
@@ -350,7 +350,7 @@
     <link href="https://volantis.js.org/news/2020-04-04/"/>
     <id>https://volantis.js.org/news/2020-04-04/</id>
     <published>2020-04-04T00:00:00.000Z</published>
-    <updated>2021-08-15T07:51:19.146Z</updated>
+    <updated>2020-08-28T11:53:20.000Z</updated>
     
     <content type="html"><![CDATA[<p>由于主题目前仍处于青少年阶段，更新迭代速度比较快，所以不会保留旧版本的文档，如果需要查看旧版本的文档，请下载主题文档的源码，回退到旧版本，本地运行查看。</p><ul><li>计划 <code>2.x</code> 的最后一个版本的文档会保留至 <code>5.0</code> 发布时，即最终会同时维护3个大版本的文档。</li><li>当主题稳定后会提供英文文档。</li></ul><span id="more"></span>]]></content>
     
