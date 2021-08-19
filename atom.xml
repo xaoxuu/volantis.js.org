@@ -23,6 +23,8 @@
     <published>2021-08-15T00:00:00.000Z</published>
     <updated>2021-08-15T00:00:00.000Z</updated>
     
+    <content type="html"><![CDATA[]]></content>
+    
     
     <summary type="html">记录了与 Volantis 主题相关的修改合集。</summary>
     
@@ -40,6 +42,8 @@
     <published>2021-08-13T00:00:00.000Z</published>
     <updated>2021-08-13T00:00:00.000Z</updated>
     
+    <content type="html"><![CDATA[]]></content>
+    
     
     <summary type="html">sponsor-page 是一个开源的捐赠按钮样式，可以用于美化我们的博客。</summary>
     
@@ -56,6 +60,8 @@
     <id>https://volantis.js.org/blogs/2021-4-18-pandoc-renderer/</id>
     <published>2021-04-18T00:00:00.000Z</published>
     <updated>2021-04-18T00:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[]]></content>
     
     
     <summary type="html">关于更换 Markdown 渲染器以正确渲染 MathJax 公式的一些考据</summary>
@@ -169,6 +175,14 @@
     <published>2021-02-19T00:00:00.000Z</published>
     <updated>2021-02-19T00:00:00.000Z</updated>
     
+    <content type="html"><![CDATA[]]></content>
+    
+    
+      
+      
+    <summary type="html">
+</summary>
+      
     
     
     
@@ -184,6 +198,14 @@
     <published>2020-12-17T00:00:00.000Z</published>
     <updated>2020-12-17T00:00:00.000Z</updated>
     
+    <content type="html"><![CDATA[]]></content>
+    
+    
+      
+      
+    <summary type="html">
+</summary>
+      
     
     
     
@@ -218,6 +240,8 @@
     <published>2020-09-24T00:00:00.000Z</published>
     <updated>2020-09-24T00:00:00.000Z</updated>
     
+    <content type="html"><![CDATA[]]></content>
+    
     
     <summary type="html">对官方文档标签文档的一个补充，以volantis主题标签调用为例，展示不同用法下的标签示例。</summary>
     
@@ -235,6 +259,14 @@
     <published>2020-09-03T00:00:00.000Z</published>
     <updated>2020-09-04T00:00:00.000Z</updated>
     
+    <content type="html"><![CDATA[]]></content>
+    
+    
+      
+      
+    <summary type="html">
+</summary>
+      
     
     
     
@@ -250,6 +282,14 @@
     <published>2020-08-31T00:00:00.000Z</published>
     <updated>2020-08-31T00:00:00.000Z</updated>
     
+    <content type="html"><![CDATA[]]></content>
+    
+    
+      
+      
+    <summary type="html">
+</summary>
+      
     
     
     
@@ -264,6 +304,8 @@
     <id>https://volantis.js.org/blogs/2020-08-28-issue-api/</id>
     <published>2020-08-28T00:00:00.000Z</published>
     <updated>2020-08-28T00:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[]]></content>
     
     
     <summary type="html">由于发布 issue 的成本远远低于发布一次博客更新（即便是使用了持续集成），可以用 issue 来简化每个独立博客都必备的友链系统，也可以通过 issue 来快速发布动态资讯，弥补静态博客必须更新静态文件才能更新内容的缺点。此功能已经集成到了主题中，使用非常方便。</summary>
@@ -282,6 +324,8 @@
     <published>2020-08-28T00:00:00.000Z</published>
     <updated>2020-09-03T00:00:00.000Z</updated>
     
+    <content type="html"><![CDATA[]]></content>
+    
     
     <summary type="html">给博客加上最新评论栏目。以 Volantis 主题为例，给侧边栏加上最新评论功能，实现整站调用。</summary>
     
@@ -298,6 +342,8 @@
     <id>https://volantis.js.org/blogs/2020-08-21-main-banner/</id>
     <published>2020-08-21T00:00:00.000Z</published>
     <updated>2020-08-22T00:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[]]></content>
     
     
     <summary type="html">很多网站首页都会有图片轮播效果，给网站的首页加上图片轮播的效果，可以很好的起到广告的作用也可以起到推荐优秀内容的作用。来吧，下面是给 Volantis 主题加上首页图片轮播的效果。</summary>
@@ -316,7 +362,7 @@
     <published>2020-07-03T00:00:00.000Z</published>
     <updated>2020-09-04T04:40:18.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Valine 评论由于可以匿名，发言成本低、质量低，使用 app 可以方便的删除垃圾评论。</p><span id="more"></span><h2 id="操作演示"><a href="#操作演示" class="headerlink" title="操作演示"></a>操作演示</h2><div class="videos center" col='3'><div class="video"><video controls preload><source src='https://github.com/volantis-x/volantis-docs/releases/download/assets/valine-ios.mov' type='video/mp4'>Your browser does not support the video tag.</video></div></div><blockquote><p>App 只支持数据存储于 LeanCloud 的评论系统。</p></blockquote><p>App 登录前需要配置 AppID 和 AppKey，由于字符比较长，输入不方便，所以支持 URL Scheme 配置。将 URL 生成一个二维码，然后用手机扫码就可以打开 App 并自动配置好。</p><p>格式为：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">valine:&#x2F;&#x2F;cfg&#x2F;id&#x3D;7yIoRlSmfX09vQCERsuWzFnx-MdYXbMMI&amp;key&#x3D;3zCL5GFePTUjwbqLop44QFbr&amp;alias&#x3D;测试项目</span><br></pre></td></tr></table></figure><p>也可以把管理员用户的账号和密码配置上，扫码直接登录，但是注意不要泄露出去：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">valine:&#x2F;&#x2F;cfg&#x2F;id&#x3D;7yIoRlSmfX09vQCERsuWzFnx-MdYXbMMI&amp;key&#x3D;3zCL5GFePTUjwbqLop44QFbr&amp;alias&#x3D;测试项目&amp;user&#x3D;me@xaoxuu.com&amp;psw&#x3D;q</span><br></pre></td></tr></table></figure><p>注意：这个管理员用户并不是 LeanCloud 的账号，而是当前 Valine 数据库中的 <code>_User</code> 表中的一个用户，可以在 App 中注册，然后在 LeanCloud 上把注册的用户设置为管理员。</p><p>设置管理员的方法：在 <code>_Role</code> 表中新建一个 <code>admin</code> 角色，然后在 <code>admin</code> 角色的 <code>users</code> 列中点击 <code>Relations</code> 把自己刚注册的用户添加进去，这个用户就有了修改和删除评论数据的权限。</p><h2 id="App-测试版地址"><a href="#App-测试版地址" class="headerlink" title="App 测试版地址"></a>App 测试版地址</h2><div class="btns circle center grid4">            <a href='https://testflight.apple.com/join/zA4MOzDd'>  <i class='fab fa-apple'></i>  <b>Valine for iOS</b>  <img src='https://i.loli.net/2020/07/04/cGmgsHhwlt4vYyK.png'></a><a href='https://github.com/yinhanlei/Valine-Android/releases/'>  <i class='fab fa-android'></i>  <b>Valine for Android</b>  <img src='https://i.loli.net/2020/07/21/HN2UhFIys6gKXct.png'></a>          </div>]]></content>
+    <content type="html"><![CDATA[<p>Valine 评论由于可以匿名，发言成本低、质量低，使用 app 可以方便的删除垃圾评论。</p><span id="more"></span><h2 id="操作演示"><a href="#操作演示" class="headerlink" title="操作演示"></a>操作演示</h2><div class="story post-story"><div class="videos center" col='3'><div class="video"><video controls preload><source src='https://github.com/volantis-x/volantis-docs/releases/download/assets/valine-ios.mov' type='video/mp4'>Your browser does not support the video tag.</video></div></div><blockquote><p>App 只支持数据存储于 LeanCloud 的评论系统。</p></blockquote><p>App 登录前需要配置 AppID 和 AppKey，由于字符比较长，输入不方便，所以支持 URL Scheme 配置。将 URL 生成一个二维码，然后用手机扫码就可以打开 App 并自动配置好。</p><p>格式为：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">valine:&#x2F;&#x2F;cfg&#x2F;id&#x3D;7yIoRlSmfX09vQCERsuWzFnx-MdYXbMMI&amp;key&#x3D;3zCL5GFePTUjwbqLop44QFbr&amp;alias&#x3D;测试项目</span><br></pre></td></tr></table></figure><p>也可以把管理员用户的账号和密码配置上，扫码直接登录，但是注意不要泄露出去：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">valine:&#x2F;&#x2F;cfg&#x2F;id&#x3D;7yIoRlSmfX09vQCERsuWzFnx-MdYXbMMI&amp;key&#x3D;3zCL5GFePTUjwbqLop44QFbr&amp;alias&#x3D;测试项目&amp;user&#x3D;me@xaoxuu.com&amp;psw&#x3D;q</span><br></pre></td></tr></table></figure><p>注意：这个管理员用户并不是 LeanCloud 的账号，而是当前 Valine 数据库中的 <code>_User</code> 表中的一个用户，可以在 App 中注册，然后在 LeanCloud 上把注册的用户设置为管理员。</p><p>设置管理员的方法：在 <code>_Role</code> 表中新建一个 <code>admin</code> 角色，然后在 <code>admin</code> 角色的 <code>users</code> 列中点击 <code>Relations</code> 把自己刚注册的用户添加进去，这个用户就有了修改和删除评论数据的权限。</p></div><h2 id="App-测试版地址"><a href="#App-测试版地址" class="headerlink" title="App 测试版地址"></a>App 测试版地址</h2><div class="story post-story"><div class="btns circle center grid4">            <a href='https://testflight.apple.com/join/zA4MOzDd'>  <i class='fab fa-apple'></i>  <b>Valine for iOS</b>  <img src='https://i.loli.net/2020/07/04/cGmgsHhwlt4vYyK.png'></a><a href='https://github.com/yinhanlei/Valine-Android/releases/'>  <i class='fab fa-android'></i>  <b>Valine for Android</b>  <img src='https://i.loli.net/2020/07/21/HN2UhFIys6gKXct.png'></a>          </div></div>]]></content>
     
     
     <summary type="html">&lt;p&gt;Valine 评论由于可以匿名，发言成本低、质量低，使用 app 可以方便的删除垃圾评论。&lt;/p&gt;</summary>
@@ -334,6 +380,8 @@
     <id>https://volantis.js.org/blogs/2020-05-17-pjax/</id>
     <published>2020-05-17T00:00:00.000Z</published>
     <updated>2020-08-07T00:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[]]></content>
     
     
     <summary type="html">本篇文章记录了我对 Volantis 主题做 Pjax 兼容的种种，大抵算是种记录吧~</summary>
