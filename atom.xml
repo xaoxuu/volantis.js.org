@@ -299,25 +299,6 @@
   </entry>
   
   <entry>
-    <title>给 Volantis 主题调用 Valine 最新评论</title>
-    <link href="https://volantis.js.org/blogs/2020-09-03-latest-comments/"/>
-    <id>https://volantis.js.org/blogs/2020-09-03-latest-comments/</id>
-    <published>2020-08-28T00:00:00.000Z</published>
-    <updated>2020-09-03T00:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[]]></content>
-    
-    
-    <summary type="html">给博客加上最新评论栏目。以 Volantis 主题为例，给侧边栏加上最新评论功能，实现整站调用。</summary>
-    
-    
-    
-    <category term="进阶玩法" scheme="https://volantis.js.org/categories/%E8%BF%9B%E9%98%B6%E7%8E%A9%E6%B3%95/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>静态博客使用 Issues API 发布动态、友链、书签</title>
     <link href="https://volantis.js.org/blogs/2020-08-28-issue-api/"/>
     <id>https://volantis.js.org/blogs/2020-08-28-issue-api/</id>
@@ -328,6 +309,25 @@
     
     
     <summary type="html">由于发布 issue 的成本远远低于发布一次博客更新（即便是使用了持续集成），可以用 issue 来简化每个独立博客都必备的友链系统，也可以通过 issue 来快速发布动态资讯，弥补静态博客必须更新静态文件才能更新内容的缺点。此功能已经集成到了主题中，使用非常方便。</summary>
+    
+    
+    
+    <category term="进阶玩法" scheme="https://volantis.js.org/categories/%E8%BF%9B%E9%98%B6%E7%8E%A9%E6%B3%95/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>给 Volantis 主题调用 Valine 最新评论</title>
+    <link href="https://volantis.js.org/blogs/2020-09-03-latest-comments/"/>
+    <id>https://volantis.js.org/blogs/2020-09-03-latest-comments/</id>
+    <published>2020-08-28T00:00:00.000Z</published>
+    <updated>2020-09-03T00:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    <summary type="html">给博客加上最新评论栏目。以 Volantis 主题为例，给侧边栏加上最新评论功能，实现整站调用。</summary>
     
     
     
