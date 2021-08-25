@@ -9,6 +9,14 @@
 
 
     <url>
+        <loc>https://volantis.js.org/test/code-highlight/</loc>
+        <lastmod>2021-08-25T13:56:19.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://volantis.js.org/test/images/</loc>
         <lastmod>2021-08-20T12:13:24.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -235,14 +243,6 @@
     <url>
         <loc>https://volantis.js.org/blogs/2020-08-21-main-banner/</loc>
         <lastmod>2020-08-22T00:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://volantis.js.org/test/code-highlight/</loc>
-        <lastmod>2020-08-19T10:06:39.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
