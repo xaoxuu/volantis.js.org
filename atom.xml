@@ -6,7 +6,7 @@
   <link href="https://volantis.js.org/atom.xml" rel="self"/>
   
   <link href="https://volantis.js.org/"/>
-  <updated>2021-08-31T00:00:00.000Z</updated>
+  <updated>2021-09-02T05:03:04.000Z</updated>
   <id>https://volantis.js.org/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>网站自定义字体及推荐</title>
+    <link href="https://volantis.js.org/blogs/2021-09-02-inkss-font/"/>
+    <id>https://volantis.js.org/blogs/2021-09-02-inkss-font/</id>
+    <published>2021-09-02T00:00:00.000Z</published>
+    <updated>2021-09-02T05:03:04.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://bu.dusays.com/2021/09/02/4092eb0a51a21.png" class="lazyload" data-srcset="https://bu.dusays.com/2021/09/02/4092eb0a51a21.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="SentyTriumphCalligraphy"></p><div class="note alien-monster cyan"><p>统计一下目前使用的自定义字体及调用。</p></div><div class="note poo gray"><p>Volantis 主题可直接参考使用。</p></div><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://bu.dusays.com/2021/09/02/4092eb0a51a21.png&quot; alt=&quot;SentyTriumphCalligraphy&quot;&gt;&lt;/p&gt;
+&lt;div class=&quot;note alien-monster cyan&quot;&gt;&lt;p&gt;统计一下目前使用的自定义字体及调用。&lt;/p&gt;&lt;/div&gt;
+
+&lt;div class=&quot;note poo gray&quot;&gt;&lt;p&gt;Volantis 主题可直接参考使用。&lt;/p&gt;&lt;/div&gt;</summary>
+    
+    
+    
+    <category term="进阶玩法" scheme="https://volantis.js.org/categories/%E8%BF%9B%E9%98%B6%E7%8E%A9%E6%B3%95/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Volantis的APlayer事件捕获</title>
@@ -385,25 +407,6 @@
     
     
     <summary type="html">很多网站首页都会有图片轮播效果，给网站的首页加上图片轮播的效果，可以很好的起到广告的作用也可以起到推荐优秀内容的作用。来吧，下面是给 Volantis 主题加上首页图片轮播的效果。</summary>
-    
-    
-    
-    <category term="进阶玩法" scheme="https://volantis.js.org/categories/%E8%BF%9B%E9%98%B6%E7%8E%A9%E6%B3%95/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>如何快速优雅地删除 Valine 的垃圾评论</title>
-    <link href="https://volantis.js.org/blogs/2020-07-03-valine/"/>
-    <id>https://volantis.js.org/blogs/2020-07-03-valine/</id>
-    <published>2020-07-03T00:00:00.000Z</published>
-    <updated>2020-09-04T04:40:18.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Valine 评论由于可以匿名，发言成本低、质量低，使用 app 可以方便的删除垃圾评论。</p><span id="more"></span><h2 id="操作演示"><a href="#操作演示" class="headerlink" title="操作演示"></a>操作演示</h2><div class="story post-story"><div class="videos center" col='3'><div class="video"><video controls preload><source src='https://github.com/volantis-x/volantis-docs/releases/download/assets/valine-ios.mov' type='video/mp4'>Your browser does not support the video tag.</video></div></div><blockquote><p>App 只支持数据存储于 LeanCloud 的评论系统。</p></blockquote><p>App 登录前需要配置 AppID 和 AppKey，由于字符比较长，输入不方便，所以支持 URL Scheme 配置。将 URL 生成一个二维码，然后用手机扫码就可以打开 App 并自动配置好。</p><p>格式为：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">valine:&#x2F;&#x2F;cfg&#x2F;id&#x3D;7yIoRlSmfX09vQCERsuWzFnx-MdYXbMMI&amp;key&#x3D;3zCL5GFePTUjwbqLop44QFbr&amp;alias&#x3D;测试项目</span><br></pre></td></tr></table></figure><p>也可以把管理员用户的账号和密码配置上，扫码直接登录，但是注意不要泄露出去：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">valine:&#x2F;&#x2F;cfg&#x2F;id&#x3D;7yIoRlSmfX09vQCERsuWzFnx-MdYXbMMI&amp;key&#x3D;3zCL5GFePTUjwbqLop44QFbr&amp;alias&#x3D;测试项目&amp;user&#x3D;me@xaoxuu.com&amp;psw&#x3D;q</span><br></pre></td></tr></table></figure><p>注意：这个管理员用户并不是 LeanCloud 的账号，而是当前 Valine 数据库中的 <code>_User</code> 表中的一个用户，可以在 App 中注册，然后在 LeanCloud 上把注册的用户设置为管理员。</p><p>设置管理员的方法：在 <code>_Role</code> 表中新建一个 <code>admin</code> 角色，然后在 <code>admin</code> 角色的 <code>users</code> 列中点击 <code>Relations</code> 把自己刚注册的用户添加进去，这个用户就有了修改和删除评论数据的权限。</p></div><h2 id="App-测试版地址"><a href="#App-测试版地址" class="headerlink" title="App 测试版地址"></a>App 测试版地址</h2><div class="story post-story"><div class="btns circle center grid4">            <a href='https://testflight.apple.com/join/zA4MOzDd'>  <i class='fab fa-apple'></i>  <b>Valine for iOS</b>  <img src='https://i.loli.net/2020/07/04/cGmgsHhwlt4vYyK.png'></a><a href='https://github.com/yinhanlei/Valine-Android/releases/'>  <i class='fab fa-android'></i>  <b>Valine for Android</b>  <img src='https://i.loli.net/2020/07/21/HN2UhFIys6gKXct.png'></a>          </div></div>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;Valine 评论由于可以匿名，发言成本低、质量低，使用 app 可以方便的删除垃圾评论。&lt;/p&gt;</summary>
     
     
     
