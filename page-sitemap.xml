@@ -10,6 +10,24 @@
     
     
     <url>
+        <loc>https://volantis.js.org/how-to-update/</loc>
+        <lastmod>2021-09-20T02:07:11.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://volantis.js.org/v5/getting-started/</loc>
+        <lastmod>2021-09-20T02:07:11.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
         <loc>https://volantis.js.org/v5/tag-plugins/</loc>
         <lastmod>2021-09-20T01:42:54.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -38,15 +56,6 @@
     
     <url>
         <loc>https://volantis.js.org/v5/advanced-settings/</loc>
-        <lastmod>2021-09-11T02:04:24.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://volantis.js.org/v5/getting-started/</loc>
         <lastmod>2021-09-11T02:04:24.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
