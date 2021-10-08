@@ -163,7 +163,7 @@
     
     
     <url>
-        <loc>https://volantis.js.org/blog/tags/</loc>
+        <loc>https://volantis.js.org/blog/categories/</loc>
         <lastmod>2020-08-28T11:53:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -172,7 +172,7 @@
     
     
     <url>
-        <loc>https://volantis.js.org/blog/categories/</loc>
+        <loc>https://volantis.js.org/blog/tags/</loc>
         <lastmod>2020-08-28T11:53:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
