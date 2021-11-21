@@ -9,16 +9,24 @@
 
 
     <url>
-        <loc>https://volantis.js.org/test/images/</loc>
-        <lastmod>2021-09-11T02:04:24.000Z</lastmod>
+        <loc>https://volantis.js.org/blogs/2021-09-02-inkss-font/</loc>
+        <lastmod>2021-11-21T16:39:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://volantis.js.org/blogs/2021-09-02-inkss-font/</loc>
-        <lastmod>2021-09-02T05:03:04.000Z</lastmod>
+        <loc>https://volantis.js.org/news/2017-10-24/</loc>
+        <lastmod>2021-11-21T16:39:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://volantis.js.org/test/images/</loc>
+        <lastmod>2021-09-11T02:04:24.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -107,14 +115,6 @@
     <url>
         <loc>https://volantis.js.org/blogs/2021-4-18-pandoc-renderer/</loc>
         <lastmod>2021-04-18T00:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://volantis.js.org/news/2017-10-24/</loc>
-        <lastmod>2021-04-07T02:24:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

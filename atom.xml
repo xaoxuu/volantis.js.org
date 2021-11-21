@@ -6,7 +6,7 @@
   <link href="https://volantis.js.org/atom.xml" rel="self"/>
   
   <link href="https://volantis.js.org/"/>
-  <updated>2021-09-02T05:03:04.000Z</updated>
+  <updated>2021-11-21T16:39:10.000Z</updated>
   <id>https://volantis.js.org/</id>
   
   <author>
@@ -21,13 +21,12 @@
     <link href="https://volantis.js.org/blogs/2021-09-02-inkss-font/"/>
     <id>https://volantis.js.org/blogs/2021-09-02-inkss-font/</id>
     <published>2021-09-02T00:00:00.000Z</published>
-    <updated>2021-09-02T05:03:04.000Z</updated>
+    <updated>2021-11-21T16:39:10.000Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="https://bu.dusays.com/2021/09/02/4092eb0a51a21.png" class="lazyload" data-srcset="https://bu.dusays.com/2021/09/02/4092eb0a51a21.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="SentyTriumphCalligraphy"></p><div class="note alien-monster cyan"><p>统计一下目前使用的自定义字体及调用。</p></div><div class="note poo gray"><p>Volantis 主题可直接参考使用。</p></div><span id="more"></span>]]></content>
+    <content type="html"><![CDATA[<div class="note alien-monster cyan"><p>统计一下目前使用的自定义字体及调用。</p></div><div class="note poo gray"><p>Volantis 主题可直接参考使用。</p></div><span id="more"></span>]]></content>
     
     
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://bu.dusays.com/2021/09/02/4092eb0a51a21.png&quot; alt=&quot;SentyTriumphCalligraphy&quot;&gt;&lt;/p&gt;
-&lt;div class=&quot;note alien-monster cyan&quot;&gt;&lt;p&gt;统计一下目前使用的自定义字体及调用。&lt;/p&gt;&lt;/div&gt;
+    <summary type="html">&lt;div class=&quot;note alien-monster cyan&quot;&gt;&lt;p&gt;统计一下目前使用的自定义字体及调用。&lt;/p&gt;&lt;/div&gt;
 
 &lt;div class=&quot;note poo gray&quot;&gt;&lt;p&gt;Volantis 主题可直接参考使用。&lt;/p&gt;&lt;/div&gt;</summary>
     
