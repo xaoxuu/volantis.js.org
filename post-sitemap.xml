@@ -9,6 +9,14 @@
 
 
     <url>
+        <loc>https://volantis.js.org/blogs/2021-11-29-parallax/</loc>
+        <lastmod>2021-11-29T00:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://volantis.js.org/blogs/2021-09-02-inkss-font/</loc>
         <lastmod>2021-11-21T16:39:10.000Z</lastmod>
         <changefreq>weekly</changefreq>

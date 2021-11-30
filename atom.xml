@@ -6,7 +6,7 @@
   <link href="https://volantis.js.org/atom.xml" rel="self"/>
   
   <link href="https://volantis.js.org/"/>
-  <updated>2021-11-21T16:39:10.000Z</updated>
+  <updated>2021-11-29T00:00:00.000Z</updated>
   <id>https://volantis.js.org/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Volantis 多背景图的优化方案</title>
+    <link href="https://volantis.js.org/blogs/2021-11-29-parallax/"/>
+    <id>https://volantis.js.org/blogs/2021-11-29-parallax/</id>
+    <published>2021-11-29T00:00:00.000Z</published>
+    <updated>2021-11-29T00:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    <summary type="html">优化背景图较多时的网页加载速度</summary>
+    
+    
+    
+    <category term="开发心得" scheme="https://volantis.js.org/categories/%E5%BC%80%E5%8F%91%E5%BF%83%E5%BE%97/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>网站自定义字体及推荐</title>
@@ -387,25 +406,6 @@
     
     
     <summary type="html">给博客加上最新评论栏目。以 Volantis 主题为例，给侧边栏加上最新评论功能，实现整站调用。</summary>
-    
-    
-    
-    <category term="进阶玩法" scheme="https://volantis.js.org/categories/%E8%BF%9B%E9%98%B6%E7%8E%A9%E6%B3%95/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>给 Hexo Volantis 主题添加图片轮播功能</title>
-    <link href="https://volantis.js.org/blogs/2020-08-21-main-banner/"/>
-    <id>https://volantis.js.org/blogs/2020-08-21-main-banner/</id>
-    <published>2020-08-21T00:00:00.000Z</published>
-    <updated>2020-08-22T00:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[]]></content>
-    
-    
-    <summary type="html">很多网站首页都会有图片轮播效果，给网站的首页加上图片轮播的效果，可以很好的起到广告的作用也可以起到推荐优秀内容的作用。来吧，下面是给 Volantis 主题加上首页图片轮播的效果。</summary>
     
     
     
