@@ -6,7 +6,7 @@
   <link href="https://volantis.js.org/atom.xml" rel="self"/>
   
   <link href="https://volantis.js.org/"/>
-  <updated>2021-11-29T00:00:00.000Z</updated>
+  <updated>2022-01-18T14:19:10.000Z</updated>
   <id>https://volantis.js.org/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://volantis.js.org/blogs/2022-01-19-festival/"/>
+    <id>https://volantis.js.org/blogs/2022-01-19-festival/</id>
+    <published>2022-01-18T14:19:38.617Z</published>
+    <updated>2022-01-18T14:19:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: volantis迎春攻略<br>date: 2022-01-19<br>updated: 2022-01-19<br>categories: [开发心得]<br>author: Langwenchong<br>link: <a href="https://blog.coolchong.cn/2022/01/19/lantern/" target="_blank" rel="noopener external nofollow noreferrer">https://blog.coolchong.cn/2022/01/19/lantern/</a><br>description: 灯花助春意，舞绶织欢心。新的一年，新的气象，快来为你的博客挂上漂漂亮亮的小🏮吧！哦对了，翀翀还斥巨资购买了大🎉，还不快进来看一看🥰~<br>headimg: <a href="https://gitee.com/Langwenchong/figure-bed/raw/master/20220118205901.png" target="_blank" rel="noopener external nofollow noreferrer">https://gitee.com/Langwenchong/figure-bed/raw/master/20220118205901.png</a><br>backup: </p><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;title: volantis迎春攻略&lt;br&gt;date: 2022-01-19&lt;br&gt;updated: 2022-01-19&lt;br&gt;categories: [开发心得]&lt;br&gt;author: Langwenchong&lt;br&gt;link: &lt;a href=&quot;https</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Volantis 多背景图的优化方案</title>
@@ -387,25 +408,6 @@
     
     
     <summary type="html">由于发布 issue 的成本远远低于发布一次博客更新（即便是使用了持续集成），可以用 issue 来简化每个独立博客都必备的友链系统，也可以通过 issue 来快速发布动态资讯，弥补静态博客必须更新静态文件才能更新内容的缺点。此功能已经集成到了主题中，使用非常方便。</summary>
-    
-    
-    
-    <category term="进阶玩法" scheme="https://volantis.js.org/categories/%E8%BF%9B%E9%98%B6%E7%8E%A9%E6%B3%95/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>给 Volantis 主题调用 Valine 最新评论</title>
-    <link href="https://volantis.js.org/blogs/2020-09-03-latest-comments/"/>
-    <id>https://volantis.js.org/blogs/2020-09-03-latest-comments/</id>
-    <published>2020-08-28T00:00:00.000Z</published>
-    <updated>2020-09-03T00:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[]]></content>
-    
-    
-    <summary type="html">给博客加上最新评论栏目。以 Volantis 主题为例，给侧边栏加上最新评论功能，实现整站调用。</summary>
     
     
     
