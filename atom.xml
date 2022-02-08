@@ -253,10 +253,10 @@
     <published>2021-03-07T00:00:00.000Z</published>
     <updated>2021-04-19T13:37:31.000Z</updated>
     
-    <content type="html"><![CDATA[<p>我在主题文档中看到了frame标签，可以更高大上得展示我们的截图/录屏等。可是目前主题内仅内置了一个iPhone11的框架，想要使用其他的框架就得对齐修改，我经过折腾基本实现了，写下了这篇文章。</p><span id="more"></span>]]></content>
+    <content type="html"><![CDATA[<p>我在主题文档中看到了frame标签，可以更高大上得展示我们的截图&#x2F;录屏等。可是目前主题内仅内置了一个iPhone11的框架，想要使用其他的框架就得对齐修改，我经过折腾基本实现了，写下了这篇文章。</p><span id="more"></span>]]></content>
     
     
-    <summary type="html">&lt;p&gt;我在主题文档中看到了frame标签，可以更高大上得展示我们的截图/录屏等。可是目前主题内仅内置了一个iPhone11的框架，想要使用其他的框架就得对齐修改，我经过折腾基本实现了，写下了这篇文章。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;我在主题文档中看到了frame标签，可以更高大上得展示我们的截图&amp;#x2F;录屏等。可是目前主题内仅内置了一个iPhone11的框架，想要使用其他的框架就得对齐修改，我经过折腾基本实现了，写下了这篇文章。&lt;/p&gt;</summary>
     
     
     
