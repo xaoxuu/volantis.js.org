@@ -10,6 +10,15 @@
     
     
     <url>
+        <loc>https://volantis.js.org/v5/development-api/</loc>
+        <lastmod>2022-03-03T04:45:49.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
         <loc>https://volantis.js.org/examples/</loc>
         <lastmod>2022-02-09T08:11:27.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -65,15 +74,6 @@
     
     <url>
         <loc>https://volantis.js.org/v5/advanced-settings/</loc>
-        <lastmod>2021-09-11T02:04:24.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://volantis.js.org/v5/development-api/</loc>
         <lastmod>2021-09-11T02:04:24.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
