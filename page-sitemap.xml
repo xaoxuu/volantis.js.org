@@ -10,6 +10,15 @@
     
     
     <url>
+        <loc>https://volantis.js.org/v5/advanced-settings/</loc>
+        <lastmod>2022-04-08T13:31:42.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
         <loc>https://volantis.js.org/v5/theme-settings/</loc>
         <lastmod>2022-04-02T01:14:24.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -30,15 +39,6 @@
     <url>
         <loc>https://volantis.js.org/v5/page-settings/</loc>
         <lastmod>2022-04-01T16:37:58.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://volantis.js.org/v5/advanced-settings/</loc>
-        <lastmod>2022-03-31T00:11:21.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
