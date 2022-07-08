@@ -6,7 +6,7 @@
   <link href="https://volantis.js.org/atom.xml" rel="self"/>
   
   <link href="https://volantis.js.org/"/>
-  <updated>2022-01-19T00:00:00.000Z</updated>
+  <updated>2022-07-08T23:53:38.000Z</updated>
   <id>https://volantis.js.org/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>好看的网盘链接</title>
+    <link href="https://volantis.js.org/blogs/2022-07-09-pandownjs/"/>
+    <id>https://volantis.js.org/blogs/2022-07-09-pandownjs/</id>
+    <published>2022-05-05T12:00:00.000Z</published>
+    <updated>2022-07-08T23:53:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>这不是Node.js包！</strong></p><p><strong>这是个javascript的小工具？</strong></p><a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/Fgaoxing/pandown-js"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Fgaoxing&repo=pandown-js&show_owner=true" class="lazyload" data-srcset="https://github-readme-stats.vercel.app/api/pin/?username=Fgaoxing&repo=pandown-js&show_owner=true" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></a><p><del>↑↑↑和上次一样的开头↑↑↑</del></p><script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Fgaoxing/pandown-js/pandown.js"></script><p><pandown type="lz" url="123" pwd="1234" fname="啥都没有，我没放链接"></pandown></p><script>pandown()</script><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;这不是Node.js包！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;这是个javascript的小工具？&lt;/strong&gt;&lt;/p&gt;
+&lt;a class=&quot;ghcard&quot; rel=&quot;external nofollow noopener noreferrer&quot; href=&quot;https://github.com/Fgaoxing/pandown-js&quot;&gt;&lt;img src=&quot;https://github-readme-stats.vercel.app/api/pin/?username=Fgaoxing&amp;repo=pandown-js&amp;show_owner=true&quot;/&gt;&lt;/a&gt;
+
+&lt;p&gt;&lt;del&gt;↑↑↑和上次一样的开头↑↑↑&lt;/del&gt;&lt;/p&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.jsdelivr.net/gh/Fgaoxing/pandown-js/pandown.js&quot;&gt;&lt;/script&gt;
+&lt;p&gt;&lt;pandown type=&quot;lz&quot; url=&quot;123&quot; pwd=&quot;1234&quot; fname=&quot;啥都没有，我没放链接&quot;&gt;&lt;/pandown&gt;&lt;/p&gt;
+&lt;script&gt;pandown()&lt;/script&gt;</summary>
+    
+    
+    
+    <category term="进阶玩法" scheme="https://volantis.js.org/categories/%E8%BF%9B%E9%98%B6%E7%8E%A9%E6%B3%95/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>volantis迎春攻略</title>
@@ -59,7 +85,7 @@
     <link href="https://volantis.js.org/blogs/2021-09-02-inkss-font/"/>
     <id>https://volantis.js.org/blogs/2021-09-02-inkss-font/</id>
     <published>2021-09-02T00:00:00.000Z</published>
-    <updated>2022-06-19T10:39:51.000Z</updated>
+    <updated>2022-07-08T23:53:38.000Z</updated>
     
     <content type="html"><![CDATA[<div class="note alien-monster cyan"><p>统计一下目前使用的自定义字体及调用。</p></div><div class="note poo gray"><p>Volantis 主题可直接参考使用。</p></div><span id="more"></span>]]></content>
     
@@ -175,7 +201,7 @@
     <link href="https://volantis.js.org/blogs/2021-4-14-photos/"/>
     <id>https://volantis.js.org/blogs/2021-4-14-photos/</id>
     <published>2021-04-14T00:00:00.000Z</published>
-    <updated>2022-06-19T10:39:51.000Z</updated>
+    <updated>2022-07-08T23:53:38.000Z</updated>
     
     <content type="html"><![CDATA[<p>经过折腾，目前相册功能可用了，就是还不支持分类和懒加载，等后续完善吧。</p><span id="more"></span>]]></content>
     
@@ -194,7 +220,7 @@
     <link href="https://volantis.js.org/blogs/2021-4-1-hls/"/>
     <id>https://volantis.js.org/blogs/2021-4-1-hls/</id>
     <published>2021-04-01T00:00:00.000Z</published>
-    <updated>2022-06-19T10:39:51.000Z</updated>
+    <updated>2022-07-08T23:53:38.000Z</updated>
     
     <content type="html"><![CDATA[<p>在文章中插入m3u8视频的时候，由于Chrome等浏览器原生播放不了这种格式，所以需要添加hls.js等让其支持播放，如果你也遇到了这样的问题就来看看吧。</p><span id="more"></span>]]></content>
     
@@ -213,7 +239,7 @@
     <link href="https://volantis.js.org/blogs/2021-3-31-highlightjs/"/>
     <id>https://volantis.js.org/blogs/2021-3-31-highlightjs/</id>
     <published>2021-03-31T00:00:00.000Z</published>
-    <updated>2022-06-19T10:39:51.000Z</updated>
+    <updated>2022-07-08T23:53:38.000Z</updated>
     
     <content type="html"><![CDATA[<p>在使用主题内的highlightjs的时候，你是否也遇到了它不换行、没有行号等问题？点进来看看吧。</p><span id="more"></span>]]></content>
     
@@ -232,7 +258,7 @@
     <link href="https://volantis.js.org/blogs/2021-2-30-slider/"/>
     <id>https://volantis.js.org/blogs/2021-2-30-slider/</id>
     <published>2021-03-30T00:00:00.000Z</published>
-    <updated>2022-06-19T10:39:51.000Z</updated>
+    <updated>2022-07-08T23:53:38.000Z</updated>
     
     <content type="html"><![CDATA[<p>这篇教程是基于heson大佬的这篇 <a href="https://www.heson10.com/posts/19736.html" target="_blank" rel="noopener external nofollow noreferrer">给Hexo Volantis主题添加图片轮播功能</a> 创作的，由我将新的轮播模板迁移至主题内，由inkss大佬完善。在这感谢两位大佬，如果你也需要轮播插件，就进来看看吧。</p><span id="more"></span>]]></content>
     
@@ -251,7 +277,7 @@
     <link href="https://volantis.js.org/blogs/2021-3-7-framei8/"/>
     <id>https://volantis.js.org/blogs/2021-3-7-framei8/</id>
     <published>2021-03-07T00:00:00.000Z</published>
-    <updated>2022-06-19T10:39:51.000Z</updated>
+    <updated>2022-07-08T23:53:38.000Z</updated>
     
     <content type="html"><![CDATA[<p>我在主题文档中看到了frame标签，可以更高大上得展示我们的截图&#x2F;录屏等。可是目前主题内仅内置了一个iPhone11的框架，想要使用其他的框架就得对齐修改，我经过折腾基本实现了，写下了这篇文章。</p><span id="more"></span>]]></content>
     
@@ -387,25 +413,6 @@
     <summary type="html">
 </summary>
       
-    
-    
-    
-    <category term="进阶玩法" scheme="https://volantis.js.org/categories/%E8%BF%9B%E9%98%B6%E7%8E%A9%E6%B3%95/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>静态博客使用 Issues API 发布动态、友链、书签</title>
-    <link href="https://volantis.js.org/blogs/2020-08-28-issue-api/"/>
-    <id>https://volantis.js.org/blogs/2020-08-28-issue-api/</id>
-    <published>2020-08-28T00:00:00.000Z</published>
-    <updated>2020-08-28T00:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[]]></content>
-    
-    
-    <summary type="html">由于发布 issue 的成本远远低于发布一次博客更新（即便是使用了持续集成），可以用 issue 来简化每个独立博客都必备的友链系统，也可以通过 issue 来快速发布动态资讯，弥补静态博客必须更新静态文件才能更新内容的缺点。此功能已经集成到了主题中，使用非常方便。</summary>
     
     
     
