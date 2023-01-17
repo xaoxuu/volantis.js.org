@@ -97,7 +97,7 @@
     <link href="https://volantis.js.org/blogs/2022-07-09-pandownjs/"/>
     <id>https://volantis.js.org/blogs/2022-07-09-pandownjs/</id>
     <published>2022-05-05T12:00:00.000Z</published>
-    <updated>2023-01-17T04:05:50.000Z</updated>
+    <updated>2023-01-17T05:21:18.000Z</updated>
     
     <content type="html"><![CDATA[<p><strong>这不是Node.js包！</strong></p><p><strong>这是个javascript的小工具？</strong></p><a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/Fgaoxing/pandown-js"><img src="https://github-readme-stats.xaoxuu.com/api/pin/?username=Fgaoxing&repo=pandown-js&show_owner=true" class="lazyload" data-srcset="https://github-readme-stats.xaoxuu.com/api/pin/?username=Fgaoxing&repo=pandown-js&show_owner=true" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></a><p><del>↑↑↑和上次一样的开头↑↑↑</del></p><!--这一段会使返回主页的pjax失效。。<script pjax-data type="text/javascript" src="https://cdn.jsdelivr.net/gh/Fgaoxing/pandown-js/pandown.js"></script><pandown type="lz" url="123" pwd="1234" fname="啥都没有，我没放链接"></pandown><script pjax-data>pandown()</script> --><span id="more"></span>]]></content>
     
@@ -117,25 +117,6 @@
     
     
     <category term="进阶玩法" scheme="https://volantis.js.org/categories/%E8%BF%9B%E9%98%B6%E7%8E%A9%E6%B3%95/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>volantis迎春攻略</title>
-    <link href="https://volantis.js.org/blogs/2022-01-19-festival/"/>
-    <id>https://volantis.js.org/blogs/2022-01-19-festival/</id>
-    <published>2022-01-19T00:00:00.000Z</published>
-    <updated>2022-01-19T00:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>灯花助春意，舞绶织欢心。新的一年，新的气象，快来为你的博客挂上漂漂亮亮的小🏮吧！哦对了，翀翀还斥巨资购买了大🎉，还不快进来看一看🥰~</p><span id="more"></span>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;灯花助春意，舞绶织欢心。新的一年，新的气象，快来为你的博客挂上漂漂亮亮的小🏮吧！哦对了，翀翀还斥巨资购买了大🎉，还不快进来看一看🥰~&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="开发心得" scheme="https://volantis.js.org/categories/%E5%BC%80%E5%8F%91%E5%BF%83%E5%BE%97/"/>
     
     
   </entry>
@@ -164,7 +145,7 @@
     <link href="https://volantis.js.org/blogs/2021-09-02-inkss-font/"/>
     <id>https://volantis.js.org/blogs/2021-09-02-inkss-font/</id>
     <published>2021-09-02T00:00:00.000Z</published>
-    <updated>2023-01-17T04:05:50.000Z</updated>
+    <updated>2023-01-17T05:21:18.000Z</updated>
     
     <content type="html"><![CDATA[<div class="note alien-monster cyan"><p>统计一下目前使用的自定义字体及调用。</p></div><div class="note poo gray"><p>Volantis 主题可直接参考使用。</p></div><span id="more"></span>]]></content>
     
@@ -280,7 +261,7 @@
     <link href="https://volantis.js.org/blogs/2021-4-14-photos/"/>
     <id>https://volantis.js.org/blogs/2021-4-14-photos/</id>
     <published>2021-04-14T00:00:00.000Z</published>
-    <updated>2023-01-17T04:05:50.000Z</updated>
+    <updated>2023-01-17T05:21:18.000Z</updated>
     
     <content type="html"><![CDATA[<p>经过折腾，目前相册功能可用了，就是还不支持分类和懒加载，等后续完善吧。</p><span id="more"></span>]]></content>
     
@@ -299,7 +280,7 @@
     <link href="https://volantis.js.org/blogs/2021-4-1-hls/"/>
     <id>https://volantis.js.org/blogs/2021-4-1-hls/</id>
     <published>2021-04-01T00:00:00.000Z</published>
-    <updated>2023-01-17T04:05:50.000Z</updated>
+    <updated>2023-01-17T05:21:18.000Z</updated>
     
     <content type="html"><![CDATA[<p>在文章中插入m3u8视频的时候，由于Chrome等浏览器原生播放不了这种格式，所以需要添加hls.js等让其支持播放，如果你也遇到了这样的问题就来看看吧。</p><span id="more"></span>]]></content>
     
@@ -318,7 +299,7 @@
     <link href="https://volantis.js.org/blogs/2021-3-31-highlightjs/"/>
     <id>https://volantis.js.org/blogs/2021-3-31-highlightjs/</id>
     <published>2021-03-31T00:00:00.000Z</published>
-    <updated>2023-01-17T04:05:50.000Z</updated>
+    <updated>2023-01-17T05:21:18.000Z</updated>
     
     <content type="html"><![CDATA[<p>在使用主题内的highlightjs的时候，你是否也遇到了它不换行、没有行号等问题？点进来看看吧。</p><span id="more"></span>]]></content>
     
@@ -337,7 +318,7 @@
     <link href="https://volantis.js.org/blogs/2021-2-30-slider/"/>
     <id>https://volantis.js.org/blogs/2021-2-30-slider/</id>
     <published>2021-03-30T00:00:00.000Z</published>
-    <updated>2023-01-17T04:05:50.000Z</updated>
+    <updated>2023-01-17T05:21:18.000Z</updated>
     
     <content type="html"><![CDATA[<p>这篇教程是基于heson大佬的这篇 <a href="https://www.heson10.com/posts/19736.html" target="_blank" rel="noopener external nofollow noreferrer">给Hexo Volantis主题添加图片轮播功能</a> 创作的，由我将新的轮播模板迁移至主题内，由inkss大佬完善。在这感谢两位大佬，如果你也需要轮播插件，就进来看看吧。</p><span id="more"></span>]]></content>
     
@@ -356,7 +337,7 @@
     <link href="https://volantis.js.org/blogs/2021-3-7-framei8/"/>
     <id>https://volantis.js.org/blogs/2021-3-7-framei8/</id>
     <published>2021-03-07T00:00:00.000Z</published>
-    <updated>2023-01-17T04:05:50.000Z</updated>
+    <updated>2023-01-17T05:21:18.000Z</updated>
     
     <content type="html"><![CDATA[<p>我在主题文档中看到了frame标签，可以更高大上得展示我们的截图&#x2F;录屏等。可是目前主题内仅内置了一个iPhone11的框架，想要使用其他的框架就得对齐修改，我经过折腾基本实现了，写下了这篇文章。</p><span id="more"></span>]]></content>
     
@@ -408,6 +389,25 @@
     <summary type="html">
 </summary>
       
+    
+    
+    
+    <category term="进阶玩法" scheme="https://volantis.js.org/categories/%E8%BF%9B%E9%98%B6%E7%8E%A9%E6%B3%95/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>哔哔！换个姿势在静态博客上发短博文（volantis适配版）</title>
+    <link href="https://volantis.js.org/blogs/2020-10-09-bb-on-volantis/"/>
+    <id>https://volantis.js.org/blogs/2020-10-09-bb-on-volantis/</id>
+    <published>2020-10-09T00:00:00.000Z</published>
+    <updated>2020-10-09T00:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>要在静态博客上发送短博文，不像 wordpress 和 typecho 新建个栏目那么简单。之前博客整的是 artitalk，已经有短博文的那种体验了，而且还能支持发送 markdown、图片、音乐等等功能。感觉唯一的缺点就是：发文不是很方便，需要在博客上登陆。(至少我觉得很麻烦)。后来看到 @熊野 的那篇《哔哔点啥，换个舒服的姿势》，顿时感觉爱了，这就是我梦寐以求发送短博文的姿势。</p><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;要在静态博客上发送短博文，不像 wordpress 和 typecho 新建个栏目那么简单。之前博客整的是 artitalk，已经有短博文的那种体验了，而且还能支持发送 markdown、图片、音乐等等功能。感觉唯一的缺点就是：发文不是很方便，需要在博客上登陆。(至少我觉得很麻烦)。后来看到 @熊野 的那篇《哔哔点啥，换个舒服的姿势》，顿时感觉爱了，这就是我梦寐以求发送短博文的姿势。&lt;/p&gt;</summary>
     
     
     
